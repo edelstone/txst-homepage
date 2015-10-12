@@ -48,7 +48,7 @@ input[type="search"]:focus, button {outline: none;}
 
 
 /* Slider */
-.slider {min-height: 600px; background: #501214 url("../images/slider-3.jpg") no-repeat 50% 60%; background-size: cover;}
+.slider {min-height: 600px; background: #501214 url("../images/slider-2.jpg") no-repeat 50% 40%; background-size: cover;}
 
 /* Top Links */
 .top-links {width: 100%; background: #363534; text-align: center;}
