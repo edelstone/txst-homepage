@@ -1,0 +1,61 @@
+/*
+Gato Homepage 2015
+Author: Michael Edelstone
+edelstone@txstate.edu or michael.edelstone@gmail.com
+*/
+
+
+/* Reset font-family per Pure documentation */
+html, button, input, select, textarea,
+.pure-g [class *= "pure-u"] {font-family: 'Univers W01', Helvetica, Calibri, Arial, sans-serif;}
+
+
+/* Base styles */
+html {font-size: 62.5%; position: relative; min-height: 100%;}
+body {height: auto; min-height: 100%; font-weight: 100; text-rendering: optimizeLegibility; background-color: #6A5638;}
+*, *:before, *:after {-moz-box-sizing: border-box; -webkit-box-sizing: border-box; box-sizing: border-box;}
+.reverse-float {float: right;}
+.clearfix:before, .clearfix:after {content: " "; display: table;}
+.clearfix:after {clear: both;}
+.clearfix {*zoom: 1;}
+.layout {background-color: #FFFFFF;}
+a {padding: 1px 3px; margin: -1px -3px; color: #005481; text-decoration: underline;}
+a:hover {background: #E8E3DB;}
+.super-user-content, .header-content, .top-links-content {max-width: 1200px; margin: auto;}
+
+/* Super User Menu */
+.super-user-menu {width: 100%; background: #6a5638;}
+.super-list {font-size: 1.1rem; letter-spacing: 1px; margin: 0; padding: 0; text-transform: uppercase; list-style-type: none; overflow: auto; font-weight: 400;}
+.super-list-left {float: left; margin-left: -1.4rem;}
+.super-list-right {float: right; margin-right: -1.4rem;}
+.super-list li {float: left;}
+.super-list a {color: #FFF; text-decoration: none; margin: 0; padding: 1.4rem; display: inline-block;}
+.super-list a:hover {background: #79674C; text-decoration: none;}
+.super-list i {font-size: 1.5rem; line-height: 0; margin-left: 0.6rem; vertical-align: middle;}
+
+/* Main Header, Logo, Search */
+.header {width: 100%; background: #e8e3db; border-bottom: 1px solid #6a5638;}
+.header-content {margin: 3.5rem auto;}
+.primary-logo img {max-width: 290px;}
+.txst-search {overflow: auto; position: relative; top: 1.7rem;}
+.search-bar {padding-bottom: .4rem; float: right; width: 375px; border-bottom: 2px solid #6a5638; position: relative;}
+.search-bar .search {border: none; width: 90%; background: transparent; font-size: 1.6rem; color: #222222; font-weight: 400;}
+::-webkit-input-placeholder {color: #6a5638; font-weight: 100;}
+input[type="search"]:focus, button {outline: none;}
+.magnifier {background: transparent; color: #6a5638; position: absolute; right: 0; border: none; font-size: 1.7rem; padding: 0;}
+
+/* Main Navigation */
+
+
+/* Slider */
+.slider {min-height: 600px; background: #501214 url("../images/slider-3.jpg") no-repeat 50% 60%; background-size: cover;}
+
+/* Top Links */
+.top-links {width: 100%; background: #363534; text-align: center;}
+.top-links a {margin: 0; padding: 0; color: #FFFFFF; font-weight: bold; text-decoration: none; display: block; font-size: 2rem; padding: 1.5rem; transition: all .15s ease-in-out;}
+.top-links a:hover {background: #FFFFFF; color: #363534;}
+
+
+
+
+*/ Responsive styles /*
