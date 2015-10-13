@@ -10,25 +10,17 @@ $(window).load(function() {
     $(".slider-image, .slider-overlay-right").delay(0).animate({
         opacity: "1"
     }, 700);
-});
-
-$(window).load(function() {
     $(".slider-overlay-left").delay(500).animate({
         opacity: "1",
         left: 0
     }, 700);
 });
 
-// Parallax scrolling effect
+// Video Lightbox
 
-$(window).scroll(function(e) {
-    parallax();
+$(document).ready(function(){
+	$('a').nivoLightbox();
 });
-
-function parallax() {
-    var scrolled = $(window).scrollTop();
-    $(".bg_image_2, .bg_image_3, .bg_image_5, .bg_image_6").css("top", (scrolled * .6) + "px");
-}
 
 // Fixed desktop navigation
 
