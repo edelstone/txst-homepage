@@ -1,32 +1,3 @@
-// Initialize accordion
-
-$(".accordion").accordion({
-	collapsible: true,
-	active: false,
-	animate: 300,
-	heightStyle: "content",
-	alwaysOpen: false,
-	active: false
-});
-
-$(".accordion-2").accordion({
-	collapsible: true,
-	active: false,
-	animate: 150,
-	heightStyle: "content",
-	alwaysOpen: false,
-	active: false
-});
-
-$(".accordion-3").accordion({
-	collapsible: true,
-	active: false,
-	animate: false,
-	heightStyle: "content",
-	alwaysOpen: false,
-	active: false
-});
-
 // No delay on mobile tapping
 
 window.addEventListener('load', function() {
@@ -36,15 +7,16 @@ window.addEventListener('load', function() {
 // Background image delay and fade 
 
 $(window).load(function() {
-    $(".bg_image_3, .bg_image_6").delay(200).animate({
+    $(".slider-image, .slider-overlay-right").delay(0).animate({
         opacity: "1"
-    }, 500);
+    }, 700);
 });
 
 $(window).load(function() {
-    $(".bg_image_2, .bg_image_5").delay(0).animate({
-        opacity: "1"
-    }, 500);
+    $(".slider-overlay-left").delay(500).animate({
+        opacity: "1",
+        left: 0
+    }, 700);
 });
 
 // Parallax scrolling effect
