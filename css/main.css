@@ -38,7 +38,7 @@ a:hover {background: #E8E3DB;}
 .header-content {margin: 3.5rem auto;}
 .primary-logo img {max-width: 270px;}
 .txst-search {overflow: auto; position: relative; top: 1.75em;}
-.search-bar {padding-bottom: .4rem; float: right; width: 375px; border-bottom: 2px solid #6a5638; position: relative;}
+.search-bar {padding-bottom: .4rem; float: right; width: 300px; border-bottom: 2px solid #6a5638; position: relative;}
 .search-bar .search {border: none; width: 90%; background: transparent; font-size: 1.6rem; color: #222222; font-weight: 400;}
 ::-webkit-input-placeholder {color: #887860; font-weight: 100;}
 input[type="search"]:focus, button {outline: none;}
@@ -57,7 +57,7 @@ input[type="search"]:focus, button {outline: none;}
 /* Slider */
 .slider {min-height: 600px; background: #501214 url("../images/slider-600-1.jpg") no-repeat 50% 45%; background-size: cover; position: relative;}
 .slider-overlay-left {width: 50%; float: left;}
-.slider-overlay-right {width: 50%; float: right; text-align: right; position: relative; top: 2.1rem;}
+.slider-overlay-right {width: 50%; float: right; text-align: right; position: relative; top: 2.4rem;}
 .slider-overlay-content {position: relative; top: 49rem;}
 .slider-overlay-left a {margin: 0; padding: 0;}
 .messaging {color: #ffffff; background: #501214; text-decoration: none; font-size: 3.2rem; padding: 1.5rem 3rem 1.5rem 2rem !important; font-weight: 400; border-bottom: 3px solid #400e10;}
