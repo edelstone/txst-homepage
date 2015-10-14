@@ -43,7 +43,7 @@ a:hover {background: #E8E3DB;}
 /* Main Header, Logo, Search */
 
 .header {width: 100%; background: #e8e3db; background: -moz-linear-gradient(top, #e8e3db 0%, #d1c7b7 100%); background: -webkit-gradient(left top, left bottom, color-stop(0%, #e8e3db), color-stop(100%, #d1c7b7)); background: -webkit-linear-gradient(top, #e8e3db 0%, #d1c7b7 100%); background: -o-linear-gradient(top, #e8e3db 0%, #d1c7b7 100%); background: -ms-linear-gradient(top, #e8e3db 0%, #d1c7b7 100%); background: linear-gradient(to bottom, #e8e3db 0%, #d1c7b7 100%); filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#e8e3db', endColorstr='#d1c7b7', GradientType=0 ); border-bottom: 1px solid #6a5638; height: 184px;}
-.header-content {margin: 3.5rem auto;}
+.header-content {padding: 3.5rem 0;}
 .primary-logo img {max-width: 270px;}
 .txst-search {overflow: auto; position: relative; top: 1.75em;}
 .search-bar {padding-bottom: .4rem; float: right; width: 300px; border-bottom: 2px solid #6a5638; position: relative;}
@@ -65,19 +65,20 @@ input[type="search"]:focus, button {outline: none;}
 .drop-menu-content {max-width: 1200px; margin: auto; font-size: 0;}
 .drop-menu:after {border: solid transparent; border-bottom-color: #6a5638; border-width: 0rem 2rem 2rem 2rem; content: ""; position: absolute; top: -1rem; cursor: pointer;}
 .future-menu:after {left: 45.4%;}
+.sub-nav-content {font-size: 1.4rem; padding: 0 4rem; color: #FFFFFF; margin-top: 5rem; margin-bottom: 4.5rem;}
 .sub-nav-content img {max-width: 100%;}
-.sub-nav-content {font-size: 1.4rem; padding: 0 3rem; color: #FFFFFF; margin-top: 5rem; margin-bottom: 4.5rem;}
 .sub-nav-caption {font-size: 1.5rem; font-weight: 400; margin-top: 1rem;}
 .sub-nav-content a {-webkit-box-decoration-break: clone; box-decoration-break: clone; color: #ffffff; text-decoration: none; padding: 5px; margin: -5px;}
 .sub-nav-content a:hover {background: #501214;}
 .sub-nav-guide {text-transform: uppercase; margin-bottom: -.4rem;}
 .sub-nav-future-1 {padding-left: 0; padding-right: 4rem;}
 .sub-nav-future-2 {font-weight: 400; position: relative; top: 1rem;}
-.sub-nav-future-3 {border-left: 2px solid #887860;}
-.sub-nav-future-4 {padding-right: 0;}
+.sub-nav-future-3 {border-left: 2px solid #887860; position: relative; top: 1rem;}
+.sub-nav-future-4 {padding-right: 0; position: relative; top: 1rem;}
 .grad-guide {margin-top: 4rem;}
 .sub-nav-button {margin: 3rem 0 0 0 !important; padding: 1.5rem 3rem !important; border: 1px solid #fff; text-transform: uppercase; display: inline-block;}
-.sub-nav-content li {line-height: 2rem; margin: 1rem 0;}
+.sub-nav-content ul {padding-left: 1rem;}
+.sub-nav-content li {line-height: 2rem; margin: 2.2rem 0; display: block;}
 
 /* Slider */
 
