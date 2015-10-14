@@ -15,6 +15,8 @@ html, button, input, select, textarea,
 
 html {font-size: 62.5%; position: relative; min-height: 100%;}
 body {height: auto; min-height: 100%; font-weight: 100; text-rendering: optimizeLegibility; background-color: #6A5638;}
+::-moz-selection {background: #E8E3DB; text-shadow:none}
+::selection{background: #E8E3DB; text-shadow:none}
 .layout {overflow: hidden;}
 *, *:before, *:after {-moz-box-sizing: border-box; -webkit-box-sizing: border-box; box-sizing: border-box;}
 .reverse-float {float: right;}
@@ -103,3 +105,6 @@ input[type="search"]:focus, button {outline: none;}
 .top-links {width: 100%; background: #363534; text-align: center;}
 .top-links a {margin: 0; padding: 0; color: #FFFFFF; font-weight: 700; text-decoration: none; display: block; font-size: 2rem; padding: 1.5rem; transition: all .15s cubic-bezier(0, 0.5, 0.25, 1);}
 .top-links a:hover {background: #FFFFFF; color: #363534;}
+
+/* Widgets and Page Content */
+.widgets {width: 100%; background: #FFF; height: 50rem;}
