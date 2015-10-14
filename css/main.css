@@ -10,6 +10,7 @@ html, button, input, select, textarea,
 .pure-g [class *= "pure-u"] {font-family: 'Univers W01', Helvetica, Calibri, Arial, sans-serif;}
 html {font-size: 62.5%; position: relative; min-height: 100%;}
 body {height: auto; min-height: 100%; font-weight: 100; text-rendering: optimizeLegibility; background-color: #6A5638;}
+.layout {overflow: hidden;}
 *, *:before, *:after {-moz-box-sizing: border-box; -webkit-box-sizing: border-box; box-sizing: border-box;}
 .reverse-float {float: right;}
 .clearfix:before, .clearfix:after {content: " "; display: table;}
@@ -48,12 +49,17 @@ input[type="search"]:focus, button {outline: none;}
 
 /* Main Navigation */
 
-.main-nav {float: right; position: relative; bottom: 2.2rem;}
+.main-nav {float: right; position: relative; bottom: 5rem;}
 .main-nav-list {list-style-type: none; padding: 0; margin: 0;}
 .main-nav-list li {display: inline-block;}
-.main-nav-list a {color: #501214; text-decoration: none; font-weight: 700; font-size: 2rem; padding: 2.8rem;}
+.main-nav-list a {display: block; color: #501214; text-decoration: none; font-weight: 700; font-size: 2rem; padding: 2.8rem;}
 .main-nav-list a:hover {background: transparent;}
 .main-nav-end {padding-right: 0 !important;}
+.future-link:hover .future-menu, .current-link:hover .current-menu, .faculty-link:hover .faculty-menu, .alumni-link:hover .alumni-menu {opacity: 1; visibility: visible;}
+.drop-menu {width: 500% !important; margin-left: -217.8%; background: #6a5638; padding: 0; position: absolute; top: 7rem; left: 0; width: 100%; opacity: 0; visibility: hidden; z-index: 9999; box-shadow: 0px 50px 50px -60px #000; transition: all .2s cubic-bezier(0, 0.5, 0.25, 1);}
+.drop-menu-content {max-width: 1200px; margin: auto; font-size: 0;}
+.drop-menu:after {border: solid transparent; border-bottom-color: #6a5638; border-width: 0rem 2rem 2rem 2rem; content: ""; position: absolute; top: -1rem;}
+.future-menu:after {left: 45.4%;}
 
 /* Slider */
 
