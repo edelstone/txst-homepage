@@ -155,7 +155,7 @@ input[type="search"]:focus, button {outline: none;}
 #tabs ul {padding: 0; margin: 0; list-style-type: none; overflow: auto;}
 #tabs li {float: left;}
 #tabs .ui-state-default a {color: #767676; outline: none;}
-#tabs .ui-state-active a {color: #222222; border-bottom: 3px solid #222222}
+#tabs .ui-state-active a {color: #222222; text-decoration: underline;}
 #tabs .ui-state-hover a {color: #222222;}
 .events-tab {margin-right: 5rem;}
 .events-container {background: #501214; padding: 4rem; color: #FFFFFF;}
