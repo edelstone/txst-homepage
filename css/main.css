@@ -109,6 +109,8 @@ input[type="search"]:focus, button {outline: none;}
 .sub-nav-content ul {padding-left: 1rem;}
 .sub-nav-current-2 ul, .sub-nav-faculty-2 ul, .sub-nav-alumni-2 ul {padding-left: 0;}
 .sub-nav-content li {line-height: 2rem; margin: 2rem 0; display: block;}
+.drop-caption-link {text-decoration: underline !important;}
+.drop-caption-link:hover {text-decoration: none !important; background: transparent !important;}
 
 /* Slider */
 
