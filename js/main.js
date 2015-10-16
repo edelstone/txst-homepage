@@ -26,8 +26,29 @@ $(document).ready(function(){
 
 $(function() {
     $( "#tabs" ).tabs();
-  });
-  
+});
+
+$("#tabs").tabs({
+  show: function(event, ui) {
+    var lastOpenedPanel = $(this).data("lastOpenedPanel");
+    if (!$(this).data("topPositionTab")) {
+        $(this).data("topPositionTab", $(ui.panel).position().top)
+    }
+    // do crossfade of tabs
+    $(ui.panel).hide().css('z-index', 2).fadeIn(500, function() {
+      $(this).css('z-index', '');
+      if (lastOpenedPanel) 
+      {
+        lastOpenedPanel
+          .toggleClass("ui-tabs-hide")
+          .hide();
+      }
+    });
+
+    $(this).data("lastOpenedPanel", $(ui.panel));
+  } 
+});
+
 // Fixed desktop navigation
 
 $(document).ready(function() {

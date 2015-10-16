@@ -164,8 +164,8 @@ input[type="search"]:focus, button {outline: none;}
 .events-container {background: #501214; padding: 4rem; color: #FFFFFF;}
 .events-container a {color: #FFFFFF;}
 .events-container a:hover {background: transparent; text-decoration: none;}
-.event-block {overflow: hidden; margin-bottom: 3.5rem;}
-.cal-icon, .cal-icon-2 {text-align: center; margin-right: 3rem; float: left; border: 1px solid #; width: 8.5rem;}
+.event-block {overflow: hidden; margin-bottom: 4rem;}
+.cal-icon, .cal-icon-2 {text-align: center; margin-right: 3rem; float: left; width: 8.5rem;}
 .cal-icon-2 {background: #6a5638;}
 .cal-icon p {margin: 0; display: inline-block; width: 100%;}
 .cal-icon a {text-decoration: none; display: block; margin: 0;}
@@ -181,9 +181,17 @@ input[type="search"]:focus, button {outline: none;}
 .range-to {font-size: 1.3rem;}
 .more-events {display: block; text-decoration: none; text-transform: uppercase; font-weight: 700; text-align: center; background: #622a2b; color: #FFFFFF !important; padding: 1.8rem; margin: 0; border-radius: 0.3rem; border: 3px solid #622a2b;}
 .more-events:hover {background: #501214 !important;}
+.amore-imp-dates {margin-top: 2.7rem;}
 .cal-jumps {margin-top: 3.5rem; font-size: 1.4rem;}
 .cal-jump-header {font-weight: bold;}
 .cal-jumps ul {text-align: center;}
 .cal-jumps li {margin-right: 2.5rem;}
-
+.fade-bg {background: #501214;}
+.cal-icon-3 {margin-right: 2.5rem;}
+.cal-icon-3 .cal-date {background: #501214;}
+.cal-icon-3 .cal-date a {padding-top: 0.5rem;}
+.cal-icon-3 .cal-month {vertical-align: super;}
+.cal-icon-3 .cal-month a {background: #501214; border-bottom: none;}
+.cal-icon-3 .cal-month a:hover {background: #501214;}
+.imp-date-block {margin-bottom: 2rem;}
 
