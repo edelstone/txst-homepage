@@ -218,6 +218,7 @@ input[type="search"]:focus, button {outline: none;}
 .research .slider-overlay-right {position: absolute; top: 1.5rem; right: 0; margin-right: 6rem;}
 .research .slider-overlay-right a {margin-left: -0.3rem; background: #d1c7b7; color: #363534;} 
 .research .slider-overlay-right a:hover {background: #6a5638; color: #ffffff;}
+.gallery_link, .primary_link {margin: 0; padding: 0;}
 
 
 /* BAB and Rising Stars */
