@@ -22,6 +22,12 @@ $(document).ready(function(){
 	$('a').nivoLightbox();
 });
 
+// Tabs
+
+$(function() {
+    $( "#tabs" ).tabs();
+  });
+  
 // Fixed desktop navigation
 
 $(document).ready(function() {

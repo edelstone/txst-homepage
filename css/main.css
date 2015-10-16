@@ -21,7 +21,9 @@ img {max-width: 100%;}
 figure {margin: 0; background: #e8e3db;}
 figcaption {padding: 0 2rem;}
 figcaption p {margin: 0;}
-h2 {font-size: 28px; margin-bottom: 3.5rem; margin-top: 0; font-weight: 400;}
+h2 {font-size: 28px; margin-bottom: 3.5rem; margin-top: .1rem; font-weight: 400;}
+h2 a {padding: 0; margin: 0; color: #222222; text-decoration: none;}
+h2 a:hover {background: transparent;}
 .layout {overflow: hidden;}
 *, *:before, *:after {-moz-box-sizing: border-box; -webkit-box-sizing: border-box; box-sizing: border-box;}
 .reverse-float {float: right;}
@@ -39,10 +41,7 @@ a:hover {background: #E8E3DB;}
 .hover-fx-1 {-webkit-transition: background-color 0.2s cubic-bezier(0, 0.5, 0.25, 1), transform 0.2s cubic-bezier(0, 0.5, 0.25, 1); -moz-transition: background-color 0.2s cubic-bezier(0, 0.5, 0.25, 1), transform 0.2s cubic-bezier(0, 0.5, 0.25, 1); -o-transition: background-color 0.2s cubic-bezier(0, 0.5, 0.25, 1), transform 0.2s cubic-bezier(0, 0.5, 0.25, 1); transition: background-color 0.2s cubic-bezier(0, 0.5, 0.25, 1), transform 0.2s cubic-bezier(0, 0.5, 0.25, 1);}
 .hover-fx-2 i {position: relative;}
 .hover-fx-2:hover i {animation: chevron 1.2s ease-in-out infinite alternate;}
-@keyframes chevron {
-    from {right: 0;}
-    to {right: .5rem;}
-}
+@keyframes chevron { from {right: 0;} to {right: .5rem;} }
 
 /* Super User Menu */
 
@@ -103,8 +102,10 @@ input[type="search"]:focus, button {outline: none;}
 .sub-nav-future-3, .sub-nav-current-3, .sub-nav-faculty-3, .sub-nav-alumni-3 {border-left: 2px solid #887860;}
 .sub-nav-future-4, .sub-nav-current-4, .sub-nav-faculty-4, .sub-nav-alumni-4 {padding-right: 0;}
 .grad-guide {margin-top: 4rem;}
-.sub-nav-button, .sub-nav-button-2 {margin: 3rem 0 0 0 !important; padding: 1.5rem 3rem !important; border: 1px solid #fff; text-transform: uppercase; display: inline-block;}
+.sub-nav-button {margin: 3rem 0 0 0 !important; padding: 1.5rem 3rem !important; border: 1px solid #fff; text-transform: uppercase; display: inline-block;}
 .sub-nav-button-2 {margin-top: 1rem !important;}
+.sub-nav-button-3 {padding: 1.1rem 3rem !important;}
+.sub-nav-button i {font-size: 2.5rem; margin-left: 1.5rem; vertical-align: sub;}
 .sub-nav-content ul {padding-left: 1rem;}
 .sub-nav-current-2 ul, .sub-nav-faculty-2 ul, .sub-nav-alumni-2 ul {padding-left: 0;}
 .sub-nav-content li {line-height: 2rem; margin: 2rem 0; display: block;}
@@ -137,8 +138,9 @@ input[type="search"]:focus, button {outline: none;}
 
 .page-content {width: 100%; background: #FFF; line-height: 2rem;}
 .content-row {padding: 5rem 0 6rem 0;}
-.content-area-left {padding-right: 60px;}
-.content-area-right {padding-left: 60px;}
+.content-area-left {padding-right: 6rem;}
+.content-area-right {padding-left: 6rem;}
+.page-content .fa-chevron-right {margin-left: 1.8rem;}
 /* News */
 .news-date {font-size: 1.4rem; font-style: italic; padding: 1.6rem 0 1.2rem 0;}
 .news-headline {font-weight: 700; font-size: 2rem; padding-bottom: 2.5rem; line-height: 2.6rem;}
@@ -147,10 +149,32 @@ input[type="search"]:focus, button {outline: none;}
 .news-links {padding: 2rem; padding-top: 1.5rem;}
 .news-links p {line-height: 2.4rem;}
 .news-jump {text-transform: uppercase; font-weight: 700; padding: 0 2rem; margin-top: 0;}
-.news-jump a {text-decoration: none;}
+.news-jump a {text-decoration: none; display: inherit;}
 .jump-right {float: right;}
-.news-jump i {margin-left: 1.8rem;}
 /* Events and Important Dates */
-
-
-
+#tabs ul {padding: 0; margin: 0; list-style-type: none; overflow: auto;}
+#tabs li {float: left;}
+#tabs .ui-state-default a {color: #767676; outline: none;}
+#tabs .ui-state-active a {color: #222222; border-bottom: 3px solid #222222}
+#tabs .ui-state-hover a {color: #222222;}
+.events-tab {margin-right: 5rem;}
+.events-container {background: #501214; padding: 4rem; color: #FFFFFF;}
+.events-container a {color: #FFFFFF;}
+.events-container a:hover {background: transparent; text-decoration: none;}
+.event-block {overflow: hidden; margin-bottom: 4rem;}
+.cal-icon, .cal-icon-2 {text-align: center; margin-right: 3rem; float: left; border: 1px solid #; width: 8.5rem;}
+.cal-icon-2 {background: #6a5638;}
+.cal-icon p {margin: 0; display: inline-block; width: 100%;}
+.cal-icon a {text-decoration: none; display: block; margin: 0;}
+.cal-icon-2 a {font-weight: 400; text-decoration: none; display: block; padding: .8rem 0; margin: 0; line-height: 2.3rem;}
+.cal-date a {font-size: 4.2rem; padding: 2rem 0 1.8rem 0;}
+.cal-date {background: #622a2b;}
+.cal-month a {text-transform: uppercase; font-weight: 400; font-size: 1.3rem; letter-spacing: 1px; background: #6a5638; padding: .5rem 0 .3rem 0; border-bottom: 1px solid #887860;}
+.cal-month a:hover {background: #6a5638;}
+.event-title a {font-size: 2rem; font-weight: 700;}
+.event-time {margin-top: -0.5rem;}
+.cal-range {margin: 0;}
+.range-start, .range-to, .range-end {display: block;}
+.range-to {font-size: 1.3rem;}
+.more-events {display: block; text-decoration: none; text-transform: uppercase; font-weight: 700; text-align: center; background: #622a2b; color: #FFFFFF !important; padding: 1.8rem; margin: 0; border-radius: 0.3rem; border: 3px solid #622a2b;}
+.more-events:hover {background: #501214 !important;}
