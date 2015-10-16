@@ -66,10 +66,10 @@ a:hover {background: #E8E3DB;}
 /* Main Header, Logo, Search */
 
 .header {width: 100%; background: #e8e3db; background: -moz-linear-gradient(top, #e8e3db 0%, #d1c7b7 100%); background: -webkit-gradient(left top, left bottom, color-stop(0%, #e8e3db), color-stop(100%, #d1c7b7)); background: -webkit-linear-gradient(top, #e8e3db 0%, #d1c7b7 100%); background: -o-linear-gradient(top, #e8e3db 0%, #d1c7b7 100%); background: -ms-linear-gradient(top, #e8e3db 0%, #d1c7b7 100%); background: linear-gradient(to bottom, #e8e3db 0%, #d1c7b7 100%); filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#e8e3db', endColorstr='#d1c7b7', GradientType=0 ); border-bottom: 1px solid #6a5638; height: 184px;}
-.header-content {padding: 3.5rem 0;}
+.header-content {padding: 3.5rem 0; height: 100%;}
 .primary-logo img {max-width: 270px;}
-.txst-search {overflow: auto; position: relative; top: 1.75em;}
-.search-bar {padding-bottom: .4rem; float: right; width: 300px; border-bottom: 2px solid #6a5638; position: relative;}
+.txst-search {overflow: auto; position: relative; top: 1.35rem;}
+.search-bar {padding-bottom: .4rem; float: right; width: 30rem; border-bottom: 2px solid #6a5638; position: relative;}
 .search-bar .search {border: none; width: 90%; background: transparent; font-size: 1.6rem; color: #222222; font-weight: 400;}
 ::-webkit-input-placeholder {color: #887860; font-weight: 100;}
 input[type="search"]:focus, button {outline: none;}
@@ -115,7 +115,7 @@ input[type="search"]:focus, button {outline: none;}
 
 /* Slider */
 
-.slider {min-height: 600px; position: relative; background: #501214;}
+.slider-container {min-height: 600px; position: relative; background: #501214;}
 .slider-image {opacity: 0; background: #501214 url("../images/slider-600-1.jpg") no-repeat 50% 45%; background-size: cover; position: absolute; height: 100%; width: 100%;}
 .slider-overlay-left {width: 50%; float: left; position: relative; left: -3rem; opacity: 0;}
 .slider-overlay-right {width: 50%; float: right; text-align: right; position: relative; top: 2.4rem; opacity: 0;}
@@ -141,10 +141,15 @@ input[type="search"]:focus, button {outline: none;}
 
 .page-content {width: 100%; background: #FFF; line-height: 2rem;}
 .content-row {padding: 5rem 0 6rem 0;}
+.content-area {position: relative;}
 .content-area-left {padding-right: 6rem;}
 .content-area-right {padding-left: 6rem;}
 .page-content .fa-chevron-right {margin-left: 1.8rem;}
+.row-1 {background: #FFFFFF;}
+.row-2 {background: #e8e3db;}
+
 /* News */
+
 .news-date {font-size: 1.4rem; font-style: italic; padding: 1.6rem 0 1.2rem 0;}
 .news-headline {font-weight: 700; font-size: 2rem; padding-bottom: 2.5rem; line-height: 2.6rem;}
 .news-headline a {color: #501214;}
@@ -154,7 +159,9 @@ input[type="search"]:focus, button {outline: none;}
 .news-jump {text-transform: uppercase; font-weight: 700; padding: 0 2rem; margin-top: .5rem;}
 .news-jump a {text-decoration: none; display: inherit;}
 .jump-right {float: right;}
+
 /* Events and Important Dates */
+
 #tabs ul {padding: 0; margin: 0; list-style-type: none; overflow: auto;}
 #tabs li {display: inline-block;}
 #tabs .ui-state-default a {color: #767676; outline: none;}
@@ -181,7 +188,7 @@ input[type="search"]:focus, button {outline: none;}
 .range-to {font-size: 1.3rem;}
 .more-events {display: block; text-decoration: none; text-transform: uppercase; font-weight: 700; text-align: center; background: #622a2b; color: #FFFFFF !important; padding: 1.8rem; margin: 0; border-radius: 0.3rem; border: 3px solid #622a2b;}
 .more-events:hover {background: #501214 !important;}
-.amore-imp-dates {margin-top: 2.7rem;}
+.more-imp-dates {margin-top: 2.7rem;}
 .cal-jumps {margin-top: 3.5rem; font-size: 1.4rem;}
 .cal-jump-header {font-weight: bold;}
 .cal-jumps ul {text-align: center;}
@@ -194,4 +201,24 @@ input[type="search"]:focus, button {outline: none;}
 .cal-icon-3 .cal-month a {background: #501214; border-bottom: none;}
 .cal-icon-3 .cal-month a:hover {background: #501214;}
 .imp-date-block {margin-bottom: 2rem;}
+
+/* Research */
+.research {position: relative;}
+.research-slider {background: #d1c7b7;}
+.research-headline {padding: 1.2rem 0;}
+.research-text {padding-bottom: 2rem;}
+.research-headline a {color: #501214; font-weight: 700;}
+.research-headline a:hover {background: transparent; text-decoration: none;}
+.nav-dots {text-align: center; font-size: 1.1rem; color: #c4c4c4; position: absolute; left: 39.5%;}
+.active-dot {color: #501214;}
+.nav-dots i {margin: auto 0.6rem; cursor: pointer;}
+.nav-dots i:hover {color: #222222;}
+.research-play {background: #6a5638; border: 3px solid #55452d; left: 39.5%; bottom: 49%;}
+.research-play:hover {background: #79674c;}
+
+
+
+
+
+/* BAB and Rising Stars */
 
