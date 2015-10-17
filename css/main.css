@@ -197,13 +197,13 @@ input[type="search"]:focus, button {outline: none;}
 .cal-jumps ul {text-align: center;}
 .cal-jumps li {margin-right: 2.5rem;}
 .fade-bg {background: #501214;}
-.cal-icon-3 {margin-right: 2rem; position: relative; right: .5rem;}
+.cal-icon-3 {margin-right: 2rem; position: relative; right: .5rem; z-index: 1;}
 .cal-icon-3 .cal-date {background: #501214;}
 .cal-icon-3 .cal-date a {padding-top: 0.5rem;}
 .cal-icon-3 .cal-month {vertical-align: super;}
 .cal-icon-3 .cal-month a {background: #501214; border-bottom: none;}
 .cal-icon-3 .cal-month a:hover {background: #501214;}
-.imp-date-block .event-title {position: relative; top: 0.5rem;}
+.imp-date-block .event-title {position: relative; top: 0.5rem; z-index: 0;}
 .imp-date-block {margin-bottom: 2rem;}
 
 /* Research */
@@ -229,6 +229,10 @@ input[type="search"]:focus, button {outline: none;}
 .pride-image {position: relative;}
 .pride-overlay {position: absolute; height: 100%; width: 100%; top: 0; background: rgba(106,86,56,.85); cursor: pointer;}
 .pride-overlay:hover {background: rgba(106,86,56,.6);}
+.pride-overlay:hover p {background: #6a5638;}
 .bab {margin-bottom: 2rem;}
-.pride-overlay p {width: 100%; position: absolute; padding: 0; margin: 0; bottom: 2rem; left: 2rem; color: #FFF; font-size: 3.5rem; font-weight: 400;}
+.pride-overlay p {position: absolute; padding: 2rem; margin: 0; bottom: 0; left: 0; color: #FFF; font-size: 3.5rem; font-weight: 400;}
+
+
+
 

@@ -11,7 +11,7 @@ $(window).load(function() {
         opacity: "1"
     }, 700);
     $(".slider-overlay-left").delay(500).animate({
-        opacity: "1",
+    	opacity: "1",
         left: 0
     }, 700);
 });
