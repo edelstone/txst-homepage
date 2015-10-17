@@ -31,7 +31,7 @@ h2 a:hover {background: transparent;}
 .clearfix {*zoom: 1;}
 .layout {background-color: #FFFFFF;}
 .image-link {padding: 0; margin: 0; display: inline-block;}
-.image-link-2 {display: block; padding: 0; margin: 0; -webkit-transition: opacity 0.2s ease; -moz-transition: opacity 0.2s ease; -o-transition: opacity 0.2s ease; transition: opacity 0.2s ease;}
+.image-link-2 {display: inline-block; padding: 0; margin: 0; -webkit-transition: opacity 0.2s ease; -moz-transition: opacity 0.2s ease; -o-transition: opacity 0.2s ease; transition: opacity 0.2s ease;}
 .image-link:hover {background: transparent;}
 .image-link-2:hover {background: transparent; opacity: .85;}
 a {-webkit-box-decoration-break: clone; box-decoration-break: clone; padding: 3px 5px; margin: -3px -5px; color: #005481; text-decoration: underline;}
