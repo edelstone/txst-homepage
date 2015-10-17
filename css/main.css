@@ -41,7 +41,7 @@ a:hover {background: #E8E3DB;}
 .hover-fx-2 i {position: relative;}
 .hover-fx-2:hover i {animation: chevron 1.2s ease-in-out infinite alternate;}
 @keyframes chevron { from {right: 0;} to {right: .5rem;} }
-.hover-fx-3 {-webkit-transition: background 0.8s ease; -moz-transition: background 0.8s ease; -o-transition: background 0.8s ease; transition: background 0.8s ease;}
+.hover-fx-3 {-webkit-transition: all 0.8s ease; -moz-transition: all 0.8s ease; -o-transition: all 0.8s ease; transition: all 0.8s ease;}
 .hover-fx-4 {-webkit-transition: background-color 0.2s cubic-bezier(0, 0.5, 0.25, 1); -moz-transition: background-color 0.2s cubic-bezier(0, 0.5, 0.25, 1); -o-transition: background-color 0.2s cubic-bezier(0, 0.5, 0.25, 1); transition: background-color 0.2s cubic-bezier(0, 0.5, 0.25, 1);}
 
 /* Super User Menu */
@@ -229,7 +229,7 @@ input[type="search"]:focus, button {outline: none;}
 .pride-image {position: relative;}
 .pride-overlay {position: absolute; height: 100%; width: 100%; top: 0; background: rgba(106,86,56,.85); cursor: pointer;}
 .pride-overlay:hover {background: rgba(106,86,56,.6);}
-.pride-overlay:hover p {background: #6a5638;}
+.pride-overlay:hover p {background: #501214; padding-left: 3rem; padding-right: 3rem;}
 .bab {margin-bottom: 2rem;}
 .pride-overlay p {position: absolute; padding: 2rem; margin: 0; bottom: 0; left: 0; color: #FFF; font-size: 3.5rem; font-weight: 400;}
 
