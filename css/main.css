@@ -37,7 +37,7 @@ h2 a:hover {background: transparent;}
 a {-webkit-box-decoration-break: clone; box-decoration-break: clone; padding: 3px 5px; margin: -3px -5px; color: #005481; text-decoration: underline;}
 a:hover {background: #E8E3DB;}
 .constrain {max-width: 1200px; margin: auto;}
-.hover-fx-1 {-webkit-transition: border 0.2s cubic-bezier(0, 0.5, 0.25, 1), background-color 0.2s cubic-bezier(0, 0.5, 0.25, 1), transform 0.2s cubic-bezier(0, 0.5, 0.25, 1); -moz-transition: border 0.2s cubic-bezier(0, 0.5, 0.25, 1), background-color 0.2s cubic-bezier(0, 0.5, 0.25, 1), transform 0.2s cubic-bezier(0, 0.5, 0.25, 1); -o-transition: border 0.2s cubic-bezier(0, 0.5, 0.25, 1), background-color 0.2s cubic-bezier(0, 0.5, 0.25, 1), transform 0.2s cubic-bezier(0, 0.5, 0.25, 1); transition: border 0.2s cubic-bezier(0, 0.5, 0.25, 1), background-color 0.2s cubic-bezier(0, 0.5, 0.25, 1), transform 0.2s cubic-bezier(0, 0.5, 0.25, 1);}
+.hover-fx-1 {-webkit-transition: all 0.2s cubic-bezier(0, 0.5, 0.25, 1); -moz-transition: all 0.2s cubic-bezier(0, 0.5, 0.25, 1); -o-transition: all 0.2s cubic-bezier(0, 0.5, 0.25, 1); transition: all 0.2s cubic-bezier(0, 0.5, 0.25, 1);}
 .hover-fx-2 i {position: relative;}
 .hover-fx-2:hover i {animation: chevron 1.2s ease-in-out infinite alternate;}
 @keyframes chevron { from {right: 0;} to {right: .5rem;} }
