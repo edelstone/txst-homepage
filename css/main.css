@@ -138,7 +138,7 @@ input[type="search"]:focus, button {outline: none;}
 /* Top Links */
 
 .top-links {width: 100%; background: #363534; text-align: center;}
-.top-links a {margin: 0; padding: 0; color: #FFFFFF; font-weight: 700; text-decoration: none; display: block; font-size: 2rem; padding: 1.5rem; transition: all .15s cubic-bezier(0, 0.5, 0.25, 1);}
+.top-links a {margin: 0; padding: 0; color: #FFFFFF; font-weight: 700; text-decoration: none; display: block; font-size: 2rem; padding: 1.5rem;}
 .top-links a:hover {background: #262524; color: #FFFFFF;}
 
 /* Page Content */
