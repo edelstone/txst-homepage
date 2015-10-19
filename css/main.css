@@ -13,7 +13,7 @@ html, button, input, select, textarea,
 /* Base styles */
 
 html {font-size: 62.5%; position: relative; min-height: 100%;}
-body {height: auto; min-height: 100%; font-weight: 100; text-rendering: optimizeLegibility; background-color: #6A5638; color: #222222; font-size: 1.6rem;}
+body {height: auto; min-height: 100%; font-weight: 100; text-rendering: optimizeLegibility; background-color: #6a5638; color: #222222; font-size: 1.6rem;}
 ::-moz-selection {background: #E8E3DB; text-shadow:none}
 ::selection{background: #E8E3DB; text-shadow:none}
 img {max-width: 100%; display: block;}
@@ -127,7 +127,7 @@ input[type="search"]:focus, button {outline: none;}
 .slider-overlay-left a {margin: 0; padding: 0;}
 .messaging {color: #ffffff; background: #501214; text-decoration: none; font-size: 3.2rem; padding: 1.5rem 3rem 1.2rem 2rem !important; font-weight: 400; border-bottom: 3px solid #400e10; display: inline-block; line-height: 4.2rem;}
 .messaging:hover {background: #622a2b;}
-.messaging:active {border-bottom: none;}
+/*.messaging:active {border-bottom: none;} */
 .play-overlay {-webkit-border-radius: 50%; -moz-border-radius: 50%; -ms-border-radius: 50%; -o-border-radius: 50%; border-radius: 8rem; background: #501214; position: absolute; width: 6.5rem; height: 6.5rem; margin-top: -7.5rem; cursor: pointer; border: 3px solid #400e10;}
 .play-overlay:hover {-webkit-transform: scale(1.15); -moz-transform: scale(1.15); -ms-transform: scale(1.15); -o-transform: scale(1.15); transform: scale(1.15); background: #622a2b;}
 .play-overlay:active {background: #501214;}
@@ -139,7 +139,7 @@ input[type="search"]:focus, button {outline: none;}
 
 .top-links {width: 100%; background: #363534; text-align: center;}
 .top-links a {margin: 0; padding: 0; color: #FFFFFF; font-weight: 700; text-decoration: none; display: block; font-size: 2rem; padding: 1.5rem; transition: all .15s cubic-bezier(0, 0.5, 0.25, 1);}
-.top-links a:hover {background: #FFFFFF; color: #363534;}
+.top-links a:hover {background: #262524; color: #FFFFFF;}
 
 /* Page Content */
 
@@ -254,7 +254,7 @@ input[type="search"]:focus, button {outline: none;}
 .twitter .social-area-icon a:hover {color: #55acee;}
 .facebook .social-area-icon a:hover {color: #3b5998;}
 .ig-image {display: block; position: relative; overflow: hidden;}
-.hidden-caption {position: absolute; background: #6a5638; background: rgba(106,86,56,0.85); color: white; padding: 1rem 2rem; opacity: 0; font-size: 1.4rem;}
+.hidden-caption {position: absolute; background: #6a5638; background: rgba(106,86,56,0.9); color: white; padding: 1rem 2rem; opacity: 0; font-size: 1.4rem;}
 .ig-image:hover .hidden-caption  {opacity: 1;}
 .hidden-caption:before {bottom: 1rem; left: 1rem; }
 .ig-image .hidden-caption  {left: 0; bottom: -30%;}
@@ -263,10 +263,10 @@ input[type="search"]:focus, button {outline: none;}
 .hidden-caption a:hover {text-decoration: none; background: transparent;}
 .hidden-caption .source-link {margin-top: 1rem; display: block;}
 .twitter {text-align: center;}
-.twitter-handle a {text-decoration: none; padding: 1px 5px; margin: -1px -5px;}
-.twitter-handle a:hover {text-decoration: underline; background: transparent}
+.twitter-handle a {text-decoration: none; padding: 1px 5px 1px 0; margin: -1px -5px;}
+.twitter-handle a:hover {text-decoration: none;}
 .twitter-handle {font-size: 3.2rem; font-weight: 700;}
-.twitter-name {font-size: 1.4rem; color: #595959; text-transform: uppercase; margin-top: -2rem; font-weight: 700;}
+.twitter-name {font-size: 1.3rem; color: #595959; text-transform: uppercase; margin-top: -2.4rem; font-weight: 400;}
 .tweet {font-size: 2.4rem; line-height: 3.6rem; margin-top: 5rem; font-weight: 100;}
 .fb-content {padding: 0rem 1rem;}
 .solo-bailout {position: relative; top: 3rem; text-align: right;}
@@ -288,7 +288,7 @@ input[type="search"]:focus, button {outline: none;}
 /* Primary Footer */
 
 .footer {width: 100%;}
-.primary-footer {width: 100%; background: #6a5638; color: #FFFFFF; padding: 2rem 0 5rem 0; font-size: 1.3rem; line-height: 2.2rem;}
+.primary-footer {width: 100%; background: #6a5638; color: #FFFFFF; padding: 2rem 0 4rem 0; font-size: 1.3rem; line-height: 2.2rem;}
 .primary-footer a {color: #FFFFFF; text-decoration: none; padding: 5px; margin: -5px;}
 .primary-footer a:hover {background: #501214; text-decoration: none;}
 .footer-btt {text-align: center; margin-top: -.5rem;}
@@ -300,14 +300,14 @@ input[type="search"]:focus, button {outline: none;}
 .contact-header a:hover {background: transparent;}
 .contact-info {letter-spacing: 1px;}
 .primary-footer-links {padding: 0; list-style-type: none; margin: 0; text-align: right; line-height: 3.2rem; letter-spacing: 1px;}
-.apply-now {letter-spacing: 1px; margin-top: 4rem !important; padding: 1.5rem 5.5rem !important; text-transform: uppercase; display: inline-block; border: 3px solid #887860; border-radius: .3rem; font-weight: 400; float: right; font-size: 1.5rem;}
+.apply-now {letter-spacing: 1px; margin-top: 3.2rem !important; padding: 1.5rem 5.5rem !important; text-transform: uppercase; display: inline-block; border: 3px solid #887860; border-radius: .3rem; font-weight: 400; float: right; font-size: 1.5rem;}
 .apply-now:hover {border-color: #bbab92;}
-.footer-logo {margin: 7rem auto 0 auto; max-width: 28rem;}
+.footer-logo {margin: 7.5rem auto 0 auto; max-width: 28rem;}
 .footer-logo a {padding: 0; margin: 0; display: block;}
 .footer-logo a:hover {background: transparent !important;}
 .u-social {font-size: 2.4rem;}
 .u-social a {margin: 0; padding: 0; margin-right: 1rem;}
-.u-social a:hover {background: transparent;}
+.u-social a:hover {background: transparent; color: inherit;}
 .ig-hover:hover {color: #3f729b; color: #e8e3db;}
 .twitter-hover:hover {color: #55acee; color: #e8e3db;}
 .fb-hover:hover {color: #3b5998; color: #e8e3db;}
@@ -317,7 +317,7 @@ input[type="search"]:focus, button {outline: none;}
 
 /* Legal Footer */
 
-.legal-footer {width: 100%; background: #501214; padding: 6rem 0 7rem 0;}
+.legal-footer {width: 100%; background: #501214; padding: 6rem 0 4rem 0;}
 .legal-footer ul {margin: 0; list-style-type: none; padding: 0 2rem;}
 .quick-links {padding-left: 0 !important;}
 .legal-3 {padding-right: 0 !important;}
@@ -325,6 +325,7 @@ input[type="search"]:focus, button {outline: none;}
 .legal-footer a:hover {background: transparent; text-decoration: underline;}
 .quick-links a {color: #ffffff;}
 .legal-links a {color: #bbbbbb;}
+.member-statement {max-width: 36rem; margin: 5rem auto 0 auto;}
 
 
 
