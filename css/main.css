@@ -288,11 +288,11 @@ input[type="search"]:focus, button {outline: none;}
 /* Footer */
 
 .footer {width: 100%;}
-.primary-footer {width: 100%; background: #6a5638; color: #FFFFFF; padding: 2rem 0 6rem 0; font-size: 1.3rem; line-height: 2.2rem;}
+.primary-footer {width: 100%; background: #6a5638; color: #FFFFFF; padding: 2rem 0 5rem 0; font-size: 1.3rem; line-height: 2.2rem;}
 .primary-footer a {color: #FFFFFF; text-decoration: none; padding: 5px; margin: -5px;}
 .primary-footer a:hover {background: #501214; text-decoration: none;}
 .footer-btt {text-align: center; margin-top: -.5rem;}
-.top {display: block; margin-top: -.4rem;}
+.top {display: block; margin-top: -.3rem;}
 .btt {padding: 1rem; margin: 0; text-transform: uppercase; font-weight: 400; letter-spacing: 1px; display: inline-block;}
 .btt:hover {background: transparent !important;}
 .btt i {font-size: 1.8rem; margin-bottom: -1rem;}
@@ -300,7 +300,7 @@ input[type="search"]:focus, button {outline: none;}
 .contact-header a:hover {background: transparent;}
 .contact-info {letter-spacing: 1px;}
 .primary-footer-links {padding: 0; list-style-type: none; margin: 0; text-align: right; line-height: 3.2rem; letter-spacing: 1px;}
-.apply-now {letter-spacing: 1px; margin-top: 3.5rem !important; padding: 1.5rem 5.5rem !important; text-transform: uppercase; display: inline-block; border: 3px solid #887860; border-radius: .3rem; font-weight: 400; float: right; font-size: 1.5rem;}
+.apply-now {letter-spacing: 1px; margin-top: 4rem !important; padding: 1.5rem 5.5rem !important; text-transform: uppercase; display: inline-block; border: 3px solid #887860; border-radius: .3rem; font-weight: 400; float: right; font-size: 1.5rem;}
 .apply-now:hover {border-color: #bbab92;}
 .footer-logo {margin: 7rem auto 0 auto; max-width: 28rem;}
 .footer-logo a {padding: 0; margin: 0; display: block;}
