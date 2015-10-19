@@ -20,8 +20,8 @@ img {max-width: 100%; display: block;}
 figure {margin: 0; background: #e8e3db;}
 figcaption {padding: 0 2rem;}
 figcaption p {margin: 0;}
-h2 {font-size: 28px; margin-bottom: 3.5rem; margin-top: .1rem; font-weight: 400;}
-h2 a {padding: 0; margin: 0; color: #222222; text-decoration: none;}
+h2 {font-size: 2.8rem; margin-bottom: 3.5rem; margin-top: .1rem; font-weight: 400;}
+h2 a {padding: 0; margin: 0; color: #222222; text-decoration: none; padding-bottom: 2.8rem;}
 h2 a:hover {background: transparent;}
 .layout {overflow: hidden;}
 *, *:before, *:after {-moz-box-sizing: border-box; -webkit-box-sizing: border-box; box-sizing: border-box;}
@@ -207,6 +207,7 @@ input[type="search"]:focus, button {outline: none;}
 .imp-date-block {margin-bottom: 2rem;}
 
 /* Research */
+
 .research {position: relative;}
 .research-slider {background: #d1c7b7; position: relative;}
 .research-headline {padding: 2.2rem 0 1.2rem 0;}
@@ -224,8 +225,8 @@ input[type="search"]:focus, button {outline: none;}
 .research .slider-overlay-right a:hover {background: #6a5638; color: #ffffff;}
 .gallery_link, .primary_link {margin: 0; padding: 0;}
 
-
 /* Pride */
+
 .pride-image {position: relative;}
 .pride-overlay {position: absolute; height: 100%; width: 100%; top: 0; background: rgba(106,86,56,.85); cursor: pointer;}
 .pride-overlay:hover {background: rgba(106,86,56,.6);}
