@@ -20,7 +20,7 @@ img {max-width: 100%; display: block;}
 figure {margin: 0; background: #e8e3db;}
 figcaption {padding: 0 2rem;}
 figcaption p {margin: 0;}
-h2 {font-size: 2.8rem; margin-bottom: 3.5rem; margin-top: .1rem; font-weight: 400;}
+h2 {font-size: 2.8rem; margin-bottom: 3.5rem; margin-top: 0.1rem; font-weight: 400;}
 h2 a {padding: 0; margin: 0; color: #222222; text-decoration: none; padding-bottom: 2.8rem;}
 h2 a:hover {background: transparent;}
 .layout {overflow: hidden;}
@@ -233,6 +233,47 @@ input[type="search"]:focus, button {outline: none;}
 .pride-overlay:hover p {background: #501214; padding-left: 3rem; padding-right: 3rem;}
 .bab {margin-bottom: 2rem;}
 .pride-overlay p {position: absolute; padding: 2rem; margin: 0; bottom: 0; left: 0; color: #FFF; font-size: 3.5rem; font-weight: 400;}
+
+/* Social Media */
+
+.tri-column .content-area-left {padding-right: 2.5rem;}
+.tri-column .content-area-center {padding: 0 2.5rem;}
+.tri-column .content-area-right {padding-left: 2.5rem;}
+.social-upper {min-height: 42rem; overflow: auto;}
+.social-lower {border-bottom: 3px solid #6a5638; position: relative;}
+.social-lower p {margin: 0; text-align: left;}
+.timestamp {font-size: 1.3rem; color:#767676; text-transform: uppercase; font-weight: 400;}
+.social-area-icon {color: #6a5638; font-size: 3rem; position: absolute; right: 0; bottom: 0.1rem;}
+.social-area-icon a {color: #6a5638; display: block; padding: 0; margin: 0;}
+.social-area-icon a:hover {background: transparent; color: #501214;}
+.instagram .social-area-icon a:hover {color: #3f729b;}
+.twitter .social-area-icon a:hover {color: #55acee;}
+.facebook .social-area-icon a:hover {color: #3b5998;}
+.ig-hover {display: block; position: relative; overflow: hidden;}
+.hidden-caption {position: absolute; background: black; background: rgba(106,86,56,0.8); color: white; padding: 1rem 2rem; opacity: 0; font-size: 1.4rem;}
+.ig-hover:hover .hidden-caption  {opacity: 1;}
+.hidden-caption:before {bottom: 1rem; left: 1rem; }
+.ig-hover .hidden-caption  {left: 0; bottom: -30%;}
+.ig-hover:hover .hidden-caption  {bottom: 0;}
+.hidden-caption a {color: #FFF; padding: 0; margin: 0;}
+.hidden-caption a:hover {text-decoration: none; background: transparent;}
+.twitter {text-align: center;}
+.twitter-handle a {text-decoration: none; padding: 1px 5px; margin: -1px -5px;}
+.twitter-handle a:hover {text-decoration: underline; background: transparent}
+.twitter-handle {font-size: 3.2rem; font-weight: 700;}
+.twitter-name {font-size: 1.4rem; color: #595959; text-transform: uppercase; margin-top: -2rem; font-weight: 700;}
+.tweet {font-size: 2.4rem; line-height: 3.6rem; margin-top: 5rem; font-weight: 100;}
+.fb-content {margin-top: 2rem;}
+.fb-text {line-height: 2.2rem;}
+.solo-bailout {position: relative; top: 3rem; text-align: right;}
+.solo-bailout a {text-transform: uppercase; font-weight: 700; text-decoration: none;}
+
+
+
+
+
+
+
 
 
 
