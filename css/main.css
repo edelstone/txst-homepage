@@ -285,7 +285,7 @@ input[type="search"]:focus, button {outline: none;}
 .pres-updates ul {padding: 0 1.8rem;}
 .pres-updates li {margin-bottom: 1rem;}
 
-/* Footer */
+/* Primary Footer */
 
 .footer {width: 100%;}
 .primary-footer {width: 100%; background: #6a5638; color: #FFFFFF; padding: 2rem 0 5rem 0; font-size: 1.3rem; line-height: 2.2rem;}
@@ -314,6 +314,18 @@ input[type="search"]:focus, button {outline: none;}
 .yt-hover:hover {color: #cd201f; color: #e8e3db;}
 .rss-hover:hover {color: #f57d00; color: #e8e3db;}
 .linked-hover:hover {color: #0077b5; color: #e8e3db;}
+
+/* Legal Footer */
+
+.legal-footer {width: 100%; background: #501214; padding: 6rem 0 7rem 0;}
+.legal-footer ul {margin: 0; list-style-type: none; padding: 0 2rem;}
+.quick-links {padding-left: 0 !important;}
+.legal-3 {padding-right: 0 !important;}
+.legal-footer a {margin: 0; padding: 0; font-size: 1.2rem; text-decoration: none;}
+.legal-footer a:hover {background: transparent; text-decoration: underline;}
+.quick-links a {color: #ffffff;}
+.legal-links a {color: #bbbbbb;}
+
 
 
 
