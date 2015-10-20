@@ -8,9 +8,9 @@ edelstone@txstate.edu or michael.edelstone@gmail.com
 
 html, button, input, select, textarea,
 .pure-g [class *= "pure-u"] {font-family: 'Univers W01', Helvetica, Calibri, Arial, sans-serif;}
-.use-garamond {font-family: 'Adobe Garamond W01', Garamond, 'Goudy Old Style', 'Times New Roman', serif}
+.use-garamond {font-family: 'Adobe Garamond W01', Garamond, 'Goudy Old Style', 'Times New Roman', serif; font-weight: 400;}
 
-/* Base styles */
+/* Base Styles */
 
 html {font-size: 62.5%; position: relative; min-height: 100%;}
 body {height: auto; min-height: 100%; font-weight: 100; text-rendering: optimizeLegibility; background-color: #6a5638; color: #222222; font-size: 1.6rem;}
@@ -65,7 +65,7 @@ a:hover {background: #E8E3DB;}
 .super-list-sub-last {padding-bottom: 1.4rem !important;}
 .super-list-sub a:hover {background: transparent; text-decoration: underline;}
 
-/* Main Header, Logo, Search */
+/* Header, Logo, Search */
 
 .header {width: 100%; background: #e8e3db; background: -moz-linear-gradient(top, #e8e3db 0%, #d1c7b7 100%); background: -webkit-gradient(left top, left bottom, color-stop(0%, #e8e3db), color-stop(100%, #d1c7b7)); background: -webkit-linear-gradient(top, #e8e3db 0%, #d1c7b7 100%); background: -o-linear-gradient(top, #e8e3db 0%, #d1c7b7 100%); background: -ms-linear-gradient(top, #e8e3db 0%, #d1c7b7 100%); background: linear-gradient(to bottom, #e8e3db 0%, #d1c7b7 100%); filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#e8e3db', endColorstr='#d1c7b7', GradientType=0 ); border-bottom: 1px solid #6a5638; height: 184px;}
 .header-content {position: relative; padding: 3.5rem 0; height: 100%;}
@@ -74,6 +74,7 @@ a:hover {background: #E8E3DB;}
 .search-bar {padding-bottom: .4rem; float: right; width: 30rem; border-bottom: 2px solid #6a5638; position: relative;}
 .search-bar .search {border: none; width: 90%; background: transparent; font-size: 1.6rem; color: #222222; font-weight: 400;}
 ::-webkit-input-placeholder {color: #887860; font-weight: 100;}
+::-moz-placeholder {color: #6a5638; font-weight: 100;}
 input[type="search"]:focus, button {outline: none;}
 .magnifier {background: transparent; color: #6a5638; position: absolute; right: 0; border: none; font-size: 1.7rem; padding: 0;}
 
@@ -239,7 +240,6 @@ input[type="search"]:focus, button {outline: none;}
 
 /* Social Media */
 
-
 .tri-column .content-area-left {padding-right: 2.5rem;}
 .tri-column .content-area-center {padding: 0 2.5rem;}
 .tri-column .content-area-right {padding-left: 2.5rem;}
@@ -272,7 +272,7 @@ input[type="search"]:focus, button {outline: none;}
 .solo-bailout {position: relative; top: 3rem; text-align: right;}
 .solo-bailout a {text-transform: uppercase; font-weight: 700; text-decoration: none;}
 
-/* President Trauth */
+/* President */
 
 .pres-message {margin-top: 2.2rem;}
 .pres-message a, .pres-updates a {padding: 0; margin: 0; color: #501214;}
@@ -326,10 +326,4 @@ input[type="search"]:focus, button {outline: none;}
 .quick-links a {color: #ffffff;}
 .legal-links a {color: #bbbbbb;}
 .member-statement {max-width: 36rem; margin: 5rem auto 0 auto;}
-
-
-
-
-
-
-
+.member-statement a {padding: 0; margin: 0; display: block;}
