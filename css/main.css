@@ -15,7 +15,7 @@ html, button, input, select, textarea,
 html {font-size: 62.5%; position: relative; min-height: 100%;}
 body {height: auto; min-height: 100%; font-weight: 100; text-rendering: optimizeLegibility; background-color: #6a5638; color: #222222; font-size: 1.6rem;}
 ::-moz-selection {background: #E8E3DB; text-shadow:none}
-::selection{background: #E8E3DB; text-shadow:none}
+::selection {background: #E8E3DB; text-shadow:none}
 img {max-width: 100%; display: block;}
 figure {margin: 0; background: #e8e3db;}
 figcaption {padding: 0 2rem;}
