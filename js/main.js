@@ -49,6 +49,19 @@ $("#tabs").tabs({
   } 
 });
 
+// Twitter slideshow
+
+$(document).ready(function() {
+    $('.slideshow').cycle({ 
+    	fx: 'fade', 
+    	speed: 1000,
+    	timeout: 6000,
+    	pause: 1,
+    	next:  '.slideshow',
+   	 	sync: 0
+	});
+});
+
 // Fixed desktop navigation
 
 $(document).ready(function() {

@@ -269,10 +269,12 @@ input[type="search"]:focus, button {outline: none;}
 .twitter-handle a:hover {text-decoration: none;}
 .twitter-handle {font-size: 3.2rem; font-weight: 700;}
 .twitter-name {font-size: 1.3rem; color: #767676; text-transform: uppercase; margin-top: -2.4rem; font-weight: 400;}
-.tweet {font-size: 2.4rem; line-height: 3.6rem; margin-top: 5rem; font-weight: 100;}
+.tweet {word-break: break-word; font-size: 2.4rem; line-height: 3.6rem; margin-top: 6rem; font-weight: 100;}
 .fb-content {padding: 0rem 1rem;}
 .solo-bailout {position: relative; top: 3rem; text-align: right;}
 .solo-bailout a {text-transform: uppercase; font-weight: 700; text-decoration: none;}
+.hide-timestamp {visibility: hidden;}
+.twitter-timestamp {position: absolute; bottom: -2.3rem; left: 0;}
 
 /* President */
 
