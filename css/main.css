@@ -151,7 +151,8 @@ input[type="search"]:focus, button {outline: none;}
 .content-area-right {padding-left: 6rem;}
 .page-content .button-chevron {margin-left: 1.8rem;}
 .row-1 {background: #FFFFFF;}
-.row-2 {background: #e8e3db;}
+.row-2 {background: #e8e3db url("../images/panorama.png") no-repeat 0% 100%; background-size: contain;}
+.row-2-bg {background: #e8e3db; background: rgba(232,227,219,0.95); padding: 5rem 0 6rem 0; margin: -5rem auto -6rem auto;}
 .row-3 {background: #FFFFFF;}
 .row-4 {background: #e8e3db;}
 
