@@ -47,15 +47,14 @@ a:hover {background: #E8E3DB;}
 
 /* Emergency Alerts */
 
-.emergency {width: 100%; background: #b30e1b; background: repeating-linear-gradient(-135deg, #6B0810, #6B0810 1.25rem, #8F0B16 1.25rem, #8F0B16 2.5rem); text-align: center; padding: 1rem 0 2rem 0; color: #FFFFFF; line-height: 2.8rem;}
-.emergency-bg {background: #b30e1b; background: rgba(179,14,27,.6); padding: 1rem 0 2rem 0; margin: -1rem 0 -2rem 0; cursor: pointer;}
+.emergency {width: 100%; background: #b30e1b; background: repeating-linear-gradient(-135deg, #6B0810, #6B0810 1.25rem, #8F0B16 1.25rem, #8F0B16 2.5rem); text-align: center; padding: 0 0 1rem 0; color: #FFFFFF; line-height: 2.8rem;}
+.emergency-bg {background: #b30e1b; background: rgba(179,14,27,.6); padding: 0 0 1rem 0; margin: 0 0 -1rem 0; cursor: pointer;}
 .emergency-bg:hover {background: #501214; background: rgba(80,18,20,.6);}
 .emergency-constrain {max-width: 50%;}
 .alert-top {font-size: 3.2rem; font-weight: 400;}
 .alert-top i {margin-right: 1rem;}
-.alert-message {font-size: 2rem; text-decoration: underline; margin: -0.5rem 0 3rem 0;}
+.alert-message {font-size: 2rem; text-decoration: underline; margin: -1rem 0 2.5rem 0;}
 .alert-timestamp {font-size: 1.3rem;}
-
 
 /* Super User Menu */
 
@@ -163,7 +162,7 @@ input[type="search"]:focus, button {outline: none;}
 .content-area-right {padding-left: 6rem;}
 .page-content .button-chevron {margin-left: 1.8rem;}
 .row-1 {background: #FFFFFF;}
-.row-2 {background: #e8e3db;}
+.row-2 {background: #e8e3db; padding-bottom: 4rem;}
 .row-3 {background: #FFFFFF;}
 .row-4 {background: #e8e3db;}
 
@@ -230,10 +229,10 @@ input[type="search"]:focus, button {outline: none;}
 .research-text {padding-bottom: 2.2rem;}
 .research-headline a {color: #501214; font-weight: 700;}
 .research-headline a:hover {background: transparent; text-decoration: none;}
-.nav-dots {text-align: center; font-size: 1.1rem; color: #d1c7b7; position: absolute; left: 39.5%;}
-.active-dot {color: #501214;}
+.nav-dots {position: relative; text-align: center; font-size: 1.1rem; color: #d1c7b7;}
 .nav-dots i {margin: auto 0.6rem; cursor: pointer;}
 .nav-dots i:hover {color: #222222;}
+.active-dot {color: #501214;}
 .research-play {z-index: 2; background: #501214; border: 3px solid #400e10; left: 39.5%; bottom: 48.5%;}
 .research-play:hover {background: #622a2b;}
 .research-play:active {background: #501214;}
