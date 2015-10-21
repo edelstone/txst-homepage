@@ -13,7 +13,7 @@ html, button, input, select, textarea,
 /* Base Styles */
 
 html {font-size: 62.5%; position: relative; min-height: 100%;}
-body {height: auto; min-height: 100%; font-weight: 100; text-rendering: optimizeLegibility; background-color: #501214; color: #222222; font-size: 1.6rem;}
+body {font-size: 100%; height: auto; min-height: 100%; font-weight: 100; text-rendering: optimizeLegibility; background-color: #501214; color: #222222; font-size: 1.6rem;}
 ::-moz-selection {background: #E8E3DB; text-shadow:none}
 ::selection {background: #E8E3DB; text-shadow:none}
 img {max-width: 100%; display: block;}
@@ -49,7 +49,7 @@ a:hover {background: #E8E3DB;}
 
 .emergency {width: 100%; background: #b30e1b; background: repeating-linear-gradient(-135deg, #6B0810, #6B0810 1.25rem, #8F0B16 1.25rem, #8F0B16 2.5rem); text-align: center; padding: 0 0 1rem 0; color: #FFFFFF; line-height: 2.8rem;}
 .emergency-bg {background: #b30e1b; background: rgba(179,14,27,.6); padding: 0 0 1rem 0; margin: 0 0 -1rem 0; cursor: pointer;}
-.emergency-bg:hover {background: #501214; background: rgba(80,18,20,.6);}
+.emergency-bg:hover {background: #8F0B16; background: rgba(179,14,27,.8)}
 .emergency-constrain {max-width: 50%;}
 .alert-top {font-size: 3.2rem; font-weight: 400;}
 .alert-top i {margin-right: 1rem;}
@@ -233,7 +233,7 @@ input[type="search"]:focus, button {outline: none;}
 .nav-dots i {margin: auto 0.6rem; cursor: pointer;}
 .nav-dots i:hover {color: #222222;}
 .active-dot {color: #501214;}
-.research-play {z-index: 2; background: #501214; border: 3px solid #400e10; left: 39.5%; bottom: 48.5%;}
+.research-play {z-index: 2; background: #501214; border: 3px solid #400e10; left: 39.5%; bottom: 53%;}
 .research-play:hover {background: #622a2b;}
 .research-play:active {background: #501214;}
 .research .slider-overlay-right {z-index: 0; position: absolute; top: 2rem; right: 0; margin-right: 6rem;}
@@ -320,8 +320,7 @@ input[type="search"]:focus, button {outline: none;}
 .footer-logo a {padding: 0; margin: 0; display: block;}
 .footer-logo a:hover {background: transparent !important;}
 .u-social {font-size: 2.4rem;}
-.u-social a {margin: 0; padding: 0; margin-right: 1rem;}
-.u-social a:hover {background: transparent; color: inherit;}
+.u-social a {margin: -2px -6px -2px -6px; padding: 2px 6px 2px 6px; margin-right: 0.5rem; border-radius: 5px;}
 
 /* Legal Footer */
 
@@ -335,3 +334,10 @@ input[type="search"]:focus, button {outline: none;}
 .legal-links a {color: #bbbbbb;}
 .member-statement {max-width: 32rem; margin: 5rem auto 0 auto;}
 .member-statement a {padding: 0; margin: 0; display: block;}
+
+/* Responsive Styles */
+
+@media (max-width: 1440px) {
+html {font-size: 55%;}
+.constrain {max-width: 1000px;}
+}
