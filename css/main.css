@@ -151,8 +151,7 @@ input[type="search"]:focus, button {outline: none;}
 .content-area-right {padding-left: 6rem;}
 .page-content .button-chevron {margin-left: 1.8rem;}
 .row-1 {background: #FFFFFF;}
-.row-2 {background: #e8e3db url("../images/panorama.png") no-repeat 0% 100%; background-size: contain;}
-.row-2-bg {background: #e8e3db; background: rgba(232,227,219,0.95); padding: 5rem 0 6rem 0; margin: -5rem auto -6rem auto;}
+.row-2 {background: #e8e3db;}
 .row-3 {background: #FFFFFF;}
 .row-4 {background: #e8e3db;}
 
@@ -219,7 +218,7 @@ input[type="search"]:focus, button {outline: none;}
 .research-text {padding-bottom: 2.2rem;}
 .research-headline a {color: #501214; font-weight: 700;}
 .research-headline a:hover {background: transparent; text-decoration: none;}
-.nav-dots {text-align: center; font-size: 1.1rem; color: #c4c4c4; position: absolute; left: 39.5%;}
+.nav-dots {text-align: center; font-size: 1.1rem; color: #d1c7b7; position: absolute; left: 39.5%;}
 .active-dot {color: #501214;}
 .nav-dots i {margin: auto 0.6rem; cursor: pointer;}
 .nav-dots i:hover {color: #222222;}
