@@ -214,7 +214,7 @@ input[type="search"]:focus, button {outline: none;}
 /* Research */
 
 .research {position: relative;}
-.research-slider {background: #d1c7b7; position: relative;}
+.research-slider {z-index: 1; background: #d1c7b7; position: relative;}
 .research-headline {padding: 2.2rem 0 1.2rem 0; font-size: 2rem; line-height: 2.6rem;}
 .research-text {padding-bottom: 2.2rem;}
 .research-headline a {color: #501214; font-weight: 700;}
@@ -223,11 +223,10 @@ input[type="search"]:focus, button {outline: none;}
 .active-dot {color: #501214;}
 .nav-dots i {margin: auto 0.6rem; cursor: pointer;}
 .nav-dots i:hover {color: #222222;}
-.research-play {background: #501214; border: 3px solid #400e10; left: 39.5%; bottom: 48.5%;}
+.research-play {z-index: 2; background: #501214; border: 3px solid #400e10; left: 39.5%; bottom: 48.5%;}
 .research-play:hover {background: #622a2b;}
 .research-play:active {background: #501214;}
-
-.research .slider-overlay-right {position: absolute; top: 2rem; right: 0; margin-right: 6rem;}
+.research .slider-overlay-right {z-index: 0; position: absolute; top: 2rem; right: 0; margin-right: 6rem;}
 .research .slider-overlay-right a {margin-left: -0.3rem; background: #d1c7b7; color: #363534;} 
 .research .slider-overlay-right a:hover {background: #6a5638; color: #ffffff;}
 .gallery_link, .primary_link {margin: 0; padding: 0;}
