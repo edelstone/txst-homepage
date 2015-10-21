@@ -54,10 +54,10 @@ $("#tabs").tabs({
 $(document).ready(function() {
     $('.slideshow').cycle({ 
     	fx: 'fade', 
-    	speed: 1000,
-    	timeout: 6000,
+    	speed: 800,
+    	timeout: 5000,
     	pause: 1,
-    	next:  '.slideshow',
+    	next: '.slideshow',
    	 	sync: 0
 	});
 });
