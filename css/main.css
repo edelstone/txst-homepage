@@ -47,7 +47,7 @@ a:hover {background: #E8E3DB;}
 
 /* Emergency Alerts */
 
-.emergency {width: 100%; background: #b30e1b; background: repeating-linear-gradient(-135deg, #6B0810, #6B0810 1.25rem, #8F0B16 1.25rem, #8F0B16 2.5rem); text-align: center; padding: 0 0 1rem 0; color: #FFFFFF; line-height: 2.8rem;}
+.emergency {display: none; width: 100%; background: #b30e1b; background: repeating-linear-gradient(-135deg, #6B0810, #6B0810 1.25rem, #8F0B16 1.25rem, #8F0B16 2.5rem); text-align: center; padding: 0 0 1rem 0; color: #FFFFFF; line-height: 2.8rem;}
 .emergency-bg {background: #b30e1b; background: rgba(179,14,27,.6); padding: 0 0 1rem 0; margin: 0 0 -1rem 0; cursor: pointer;}
 .emergency-bg:hover {background: #8F0B16; background: rgba(179,14,27,.8)}
 .emergency-constrain {max-width: 50%;}
@@ -91,7 +91,7 @@ input[type="search"]:focus, button {outline: none;}
 
 /* Main Navigation */
 
-.main-nav {position: absolute; bottom: 1.2rem; right: 0.4rem;}
+.main-nav {position: absolute; bottom: 1.2rem; right: 0.5rem;}
 .main-nav-list {list-style-type: none; padding: 0; margin: 0;}
 .main-nav-list li {display: inline-block;}
 .main-nav-link{display: block; color: #501214; text-decoration: none; font-weight: 700; font-size: 2rem; padding: 2.8rem;}
@@ -180,7 +180,7 @@ input[type="search"]:focus, button {outline: none;}
 
 /* Events and Important Dates */
 
-#tabs ul {padding: 0; margin: 0; list-style-type: none; overflow: auto;}
+#tabs ul {padding: 0; margin: 0; list-style-type: none; overflow: hidden;}
 #tabs li {display: inline-block;}
 #tabs .ui-state-default a {color: #767676; outline: none;}
 #tabs .ui-state-active a {color: #222222; text-decoration: underline;}
@@ -208,7 +208,7 @@ input[type="search"]:focus, button {outline: none;}
 .more-events:hover {background: #501214 !important;}
 .more-imp-dates {margin-top: 2.9rem;}
 .cal-jumps {margin-top: 3.5rem; font-size: 1.4rem;}
-.cal-jump-header {font-weight: bold;}
+.cal-jump-header {font-weight: 700;}
 .cal-jumps ul {text-align: center;}
 .cal-jumps li {margin-right: 2.5rem;}
 .fade-bg {background: #501214;}
@@ -256,6 +256,7 @@ input[type="search"]:focus, button {outline: none;}
 .tri-column .content-area-center {padding: 0 2.5rem;}
 .tri-column .content-area-right {padding-left: 2.5rem;}
 .social-upper {min-height: 42rem; overflow: auto;}
+.slideshow {min-height: 42rem;}
 .social-lower {border-bottom: 3px solid #6a5638; position: relative;}
 .social-lower p {margin: 0; text-align: left;}
 .timestamp {font-size: 1.3rem; color:#767676; text-transform: uppercase; font-weight: 400;}
@@ -291,7 +292,7 @@ input[type="search"]:focus, button {outline: none;}
 .pres-message {margin-top: 2.2rem;}
 .pres-message a, .pres-updates a {padding: 0; margin: 0; color: #501214;}
 .pres-message a:hover, .pres-updates a:hover {background: transparent; text-decoration: none;}
-.pres-quote {font-weight: bold;}
+.pres-quote {font-weight: 700; margin: 0;}
 .president .solo-bailout a {color: #501214;}
 .president .solo-bailout a:hover {background-color: #d1c7b7;}
 .pres-updates-content {font-size: 1.4rem; background: #d1c7b7; padding: 2rem 3rem; min-height: 23.5rem;}
@@ -337,7 +338,65 @@ input[type="search"]:focus, button {outline: none;}
 
 /* Responsive Styles */
 
-@media (max-width: 1440px) {
-html {font-size: 55%;}
-.constrain {max-width: 1000px;}
+@media (max-width: 90em) {
+html {font-size: 56.5%;}
+.constrain, .drop-menu-content {max-width: 1000px;}
+.slider-container {min-height: 500px;}
+.slider-overlay-content {bottom: 4.5rem;}
+.header {height: 164px;}
+.main-nav-link {padding: 2.8rem 2.5rem; font-size: 1.9rem;}
+.super-list {font-size: 1.2rem;}
+.drop-menu {margin-left: -220.5%;}
+.sub-nav-content {padding: 0 2rem;}
+.sub-nav-future-1, .sub-nav-current-1, .sub-nav-faculty-1, .sub-nav-alumni-1 {padding-left: 0; padding-right: 3.5rem;}
+.txst-search {top: 1.45rem;}
+.content-area-left {padding-right: 4rem;}
+.content-area-right {padding-left: 4rem;}
+.tri-column .content-area-center {padding: 0 2rem;}
+.tri-column .content-area-right {padding-left: 2rem;}
+.tri-column .content-area-left {padding-right: 2rem;}
+.research .slider-overlay-right {margin-right: 4rem;}
+.research-headline {padding-top: 1.8rem;}
+.social-upper, .slideshow {min-height: 39rem;}
+.pres-message {margin-top: -.5rem;}
+.pres-updates-content {padding: 1.5rem 3rem; min-height: 22rem;}
 }
+
+@media (max-width: 64em) {
+html {font-size: 52.5%;}
+.constrain, .drop-menu-content {padding-left: 2rem; padding-right: 2rem;}
+.slider-container {min-height: 375px;}
+.slider-overlay-content {bottom: 3.5rem;}
+.main-nav-link {padding: 2.8rem 2.2rem; font-size: 1.8rem;}
+.main-nav-end {padding-right: 2rem !important;}
+.super-user-content {padding-left: 1.4rem; padding-right: 1.4rem;}
+.emergency-constrain {max-width: 70%;}
+.slider-overlay-right {right: 4rem;}
+.content-area-left {padding-right: 1.5rem;}
+.content-area-right {padding-left: 1.5rem;}
+.txst-search {top: 1.55rem;}
+.tri-column .content-area-center {padding: 0 1.2rem;}
+.tri-column .content-area-right {padding-left: 1.2rem;}
+.tri-column .content-area-left {padding-right: 1.2rem;}
+.research .slider-overlay-right {margin-right: 1.5rem;}
+.research-play {left: 42.5%;}
+.social-upper, .slideshow {min-height: 36rem;}
+.tweet {font-size: 2.2rem;}
+.pres-updates-content {padding: 0.5rem 1rem 1.5rem 2rem; min-height: 0;}
+}
+
+@media (max-width: 58.75em) {
+.header {height: 215px;}
+.main-nav {position: absolute; bottom: 0; left: 50%; margin-left: -360px;}
+.main-nav-link {padding: 2.8rem 3.2rem;}
+.main-nav-start {padding-left: 3.2rem !important;}
+.messaging {font-size: 2.8rem;}
+}
+
+@media (max-width: 48em) {
+
+}
+
+
+
+
