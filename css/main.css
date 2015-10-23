@@ -482,10 +482,12 @@ h2 {margin-bottom: 2.5rem; font-size: 2.4rem;}
 .social-lower {border-bottom: none;}
 .social-upper {min-height: 0;}
 .social-lower p {margin-top: 2rem;}
+.slideshow {min-height: 32rem;}
 .twitter-timestamp {bottom: -4.3rem;}
 .twitter-handle a, .tweet a {color: #501214;}
 .twitter {background: #e8e3db; margin: 2rem -2rem; padding: 2rem !important;}
-.tweet {font-size: 2.4rem; padding: 2rem 4rem;}
+.tweet {padding: 0 2rem;}
+.fb-content {padding: 0;}
 .pres-bio {margin-top: 1.5rem;}
 .slider-overlay-content {bottom: 0;}
 .slider-container {min-height: 250px;}
