@@ -152,6 +152,7 @@ input[type="search"]:focus, button {outline: none;}
 .top-links {width: 100%; background: #363534; text-align: center;}
 .top-links a {margin: 0; padding: 0; color: #FFFFFF; font-weight: 700; text-decoration: none; display: block; font-size: 2rem; padding: 1.5rem;}
 .top-links a:hover {background: #262524; color: #FFFFFF;}
+.top-links i {display: none;}
 
 /* Page Content */
 
@@ -232,7 +233,7 @@ input[type="search"]:focus, button {outline: none;}
 .nav-dots i {margin: auto 0.6rem; cursor: pointer;}
 .nav-dots i:hover {color: #222222;}
 .active-dot {color: #501214;}
-.research-play {z-index: 2; background: #501214; border: 3px solid #400e10; left: 39.5%; bottom: 53%;}
+.research-play {z-index: 2; background: #501214; border: 3px solid #400e10; left: calc(50% - 3.25rem - 3rem); bottom: calc(50% - 3.25rem + 5rem);}
 .research-play:hover {background: #622a2b;}
 .research-play:active {background: #501214;}
 .research .slider-overlay-right {z-index: 0; position: absolute; top: 2rem; right: 0; margin-right: 6rem;}
@@ -246,7 +247,7 @@ input[type="search"]:focus, button {outline: none;}
 .pride-overlay {position: absolute; height: 100%; width: 100%; top: 0; background: rgba(106,86,56,.8); cursor: pointer; display: flex; flex-direction: column; justify-content: center;}
 .pride-overlay:hover {background: rgba(106,86,56,.55);}
 .bab {margin-bottom: 3rem;}
-.pride-image p {top: .5rem;}
+.bab p {top: .5rem;}
 .pride-overlay p {position: relative; color: #FFFFFF; font-size: 4.2rem; font-weight: 400; text-align: center; text-shadow: 0 0 1.5rem #6a5638;}
 
 /* Social Media */
@@ -327,13 +328,14 @@ input[type="search"]:focus, button {outline: none;}
 /* Legal Footer */
 
 .legal-footer {width: 100%; background: #501214; padding: 6rem 0 4rem 0;}
-.legal-footer ul {margin: 0; list-style-type: none; padding: 0 2rem;}
+.quick-links, .legal-links {padding: 0 2rem;}
 .quick-links {padding-left: 0 !important;}
 .legal-3 {padding-right: 0 !important;}
+.legal-footer p {margin: 0;}
 .legal-footer a {margin: 0; padding: 0; font-size: 1.2rem; text-decoration: none;}
 .legal-footer a:hover {background: transparent; text-decoration: underline;}
-.quick-links a {color: #ffffff;}
-.legal-links a {color: #bbbbbb;}
+.quick-links a {color: #ffffff !important;}
+.legal-links a {color: #bbbbbb !important;}
 .member-statement {max-width: 32rem; margin: 5rem auto 0 auto;}
 .member-statement a {padding: 0; margin: 0; display: block;}
 
@@ -342,25 +344,26 @@ input[type="search"]:focus, button {outline: none;}
 @media (max-width: 90em) {
 html {font-size: 57.5%;}
 .constrain, .drop-menu-content {max-width: 1000px;}
+.primary-logo img {max-width: 26rem;}
 .slider-container {min-height: 500px;}
 .slider-overlay-content {bottom: 4.5rem;}
-.header {height: 166px;}
+.header {height: 164px;}
 figcaption {padding: 2rem;}
-.main-nav-link {padding: 2.8rem 2.5rem; font-size: 1.8rem;}
-.drop-menu {margin-left: -221.5%;}
+.main-nav-link {padding: 2.8rem 2.5rem; font-size: 1.9rem;}
+.drop-menu {margin-left: -218%;}
 .sub-nav-content {padding: 0 2rem;}
 .sub-nav-future-1, .sub-nav-current-1, .sub-nav-faculty-1, .sub-nav-alumni-1 {padding-left: 0; padding-right: 3.5rem;}
-.future-menu:after {left: 45.5%;}
-.current-menu:after {left: 50.4%;}
-.faculty-menu:after {left: 55.2%;}
-.alumni-menu:after {left: 61%;}
+.future-menu:after {left: 44.8%;}
+.current-menu:after {left: 49.8%;}
+.faculty-menu:after {left: 54.5%;}
+.alumni-menu:after {left: 60.3%;}
 .content-area-left {padding-right: 4rem;}
 .content-area-right {padding-left: 4rem;}
 .tri-column .content-area-center {padding: 0 2rem;}
 .tri-column .content-area-right {padding-left: 2rem;}
 .tri-column .content-area-left {padding-right: 2rem;}
 .research .slider-overlay-right {margin-right: 4rem;}
-.research-play {left: 40.5%; bottom: 52.5%;}
+.research-play {left: calc(50% - 3.25rem - 2rem); bottom: calc(50% - 3.25rem + 5rem);}
 .social-upper, .slideshow {min-height: 39rem;}
 .pres-message {margin-top: -.5rem;}
 .pres-updates-content {padding: 1.5rem 3rem; min-height: 22rem;}
@@ -415,33 +418,75 @@ figcaption {padding: 1.8rem;}
 .cal-icon-3 {margin-right: 0.5rem; right: 1rem}
 .research-headline {padding-bottom: 0.8rem;}
 .research .slider-overlay-right {margin-right: 1.5rem;}
-.research-play {left: 42.5%; bottom: 51.5%;}
+.research-play {left: calc(50% - 3.25rem - .75rem); bottom: calc(50% - 3.25rem + 5rem);}
 .tweet {font-size: 2.2rem;}
 .pres-bio {margin-top: 1rem; line-height: 2.4rem;}
 .pres-updates-content {padding: .5rem .5rem .5rem 2rem; min-height: 0;}
 }
 
 @media (max-width: 48em) {
-.super-list, .txst-search, .main-nav {display: none;}
+.super-list, .txst-search, .main-nav, .slider-overlay-right, .hidden-caption {display: none;}
+h2 {margin-bottom: 2.5rem;}
+figure {margin: 0 -2rem;}
+.content-row {padding: 0;}
 .content-area-right {padding-left: 0;}
 .content-area-left {padding-right: 0;}
+.content-area {padding: 4rem 0;}
 .tri-column .content-area-right {padding-left: 0;}
 .tri-column .content-area-left {padding-right: 0;}
 .tri-column .content-area-center {padding: 0;}
 .header {height: 18rem;}
-.research .slider-overlay-right {margin-right: 0;}
+.research-play {left: calc(50% - 3.25rem);}
 .footer {text-align: center;}
+.primary-footer {font-size: 1.5rem; line-height: 2.6rem;}
+.contact-header {font-size: 2.8rem; margin-top: 4rem;}
 .primary-footer-links {text-align: center;}
-.apply-now {float: none; padding: 2rem 6rem !important; display: block;}
+.apply-now {margin-top: 4.5rem !important; float: none; padding: 2.2rem 6rem !important; display: block; font-size: 1.8rem;}
 .primary-logo {padding: 0; text-align: center;}
-.contact-header {margin-top: 5.5rem}
 .u-social a {margin: 0;}
-.footer-logo {margin: 7.5rem auto;}
+.footer-logo {margin: 6rem auto 7.5rem auto;}
+.footer-links, .legal-links {display: inline; padding: 0;}
 .quick-links {margin-bottom: 3rem !important;}
 .legal-footer {padding: 4rem 0 3rem 0;}
-.legal-footer ul {padding: 0;}
-.legal-footer li {display: inline;}
-.legal-footer li:after {content: " - "; color: #bbbbbb;}
+.legal-footer p {display: inline;}
+.quick-links p:after {content: " - "; color: #ffffff;}
+.quick-links p:last-child:after {content: none;}
+.legal-links p:after {content: " - "; color: #bbbbbb;}
+.legal-3 p:last-child:after {content: none;}
+.member-statement {margin: 4rem auto 1rem auto;}
+.jump-right {float: none; text-align: center;}
+.jump-left {text-align: center;}
+.jump-right a {display: block; padding: 2rem 0; background: #6a5638; border-radius: 3px; color: #fff; margin: 0;}
+.jump-right a:hover {background: #79674c;}
+.hover-fx-6 {-webkit-transition: all 0.2s cubic-bezier(0, 0.5, 0.25, 1); -moz-transition: all 0.2s cubic-bezier(0, 0.5, 0.25, 1); -o-transition: all 0.2s cubic-bezier(0, 0.5, 0.25, 1); transition: all 0.2s cubic-bezier(0, 0.5, 0.25, 1);}
+.events {background: #501214; margin: 0 -2rem; padding: 4.5rem 0 2rem 0;}
+#tabs .ui-state-default a {color: #b9a0a1;}
+#tabs .ui-state-hover a {color: #fff;}
+#tabs .ui-state-active a {color: #fff;}
+.events-container {padding: 2rem;}
+.events-tab {margin-right: 3rem; margin-left: 2rem;}
+.news-links {padding: 1.5rem 0;}
+.news-jump {padding: 0;}
+.pride {margin-top: -6rem;}
+.top-links {text-align: left;}
+.top-links-content {padding: 0;}
+.top-links a {font-weight: 400; padding: 1rem 2rem; border-top: 1px solid #5e5d5d; border-bottom: 1px solid #222;}
+.top-links i {display: inline; float: right;}
+.solo-title {margin-top: 4rem; margin-bottom: -1rem;}
+.tri-column .content-area {padding: 1rem 0;}
+.solo-bailout {top: 0; text-align: center; margin-bottom: 4rem;}
+.president .solo-bailout a {display: block; padding: 2rem 0; background: #501214; border-radius: 3px; color: #fff; margin: 0;}
+.president .solo-bailout a:hover {background: #622a2b;}
+.social .solo-bailout a {display: block; padding: 2rem 0; background: #6a5638; border-radius: 3px; color: #fff; margin: 0;}
+.social .solo-bailout a:hover {background: #79674c;}
+.social-lower {border-bottom: none;}
+.social-upper {min-height: 0;}
+.social-lower p {margin-top: 2rem;}
+.twitter-timestamp {bottom: -4.3rem;}
+.twitter-handle a, .tweet a {color: #501214;}
+.twitter {background: #e8e3db; margin: 2rem -2rem; padding: 2rem !important;}
+.tweet {font-size: 2.4rem; padding: 2rem 4rem;}
+.pres-bio {margin-top: 1.5rem;}
 }
 
 
