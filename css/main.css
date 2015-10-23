@@ -206,7 +206,7 @@ input[type="search"]:focus, button {outline: none;}
 .cal-range {margin: 0;}
 .range-start, .range-to, .range-end {display: block;}
 .range-to {font-size: 1.3rem;}
-.more-events {display: block; text-decoration: none; text-transform: uppercase; font-weight: 700; text-align: center; background: #622a2b; color: #FFFFFF !important; padding: 1.8rem; margin: 0; border-radius: 0.3rem; border: 3px solid #622a2b;}
+.more-events {display: block; text-decoration: none; text-transform: uppercase; font-weight: 700; text-align: center; background: #622a2b; color: #FFFFFF !important; padding: 1.6rem; margin: 0; border-radius: 0.3rem; border: 3px solid #622a2b;}
 .more-events:hover {background: #501214 !important;}
 .more-imp-dates {margin-top: 2.9rem;}
 .cal-jumps {margin-top: 3.5rem; font-size: 1.4rem;}
@@ -427,8 +427,7 @@ figcaption {padding: 1.8rem;}
 
 @media (max-width: 48em) {
 .super-list, .txst-search, .main-nav, .slider-overlay-right, .hidden-caption, .slider-overlay-left {display: none;}
-h2 {margin-bottom: 2.5rem;}
-figure {margin: 0 -2rem;}
+h2 {margin-bottom: 2.5rem; font-size: 2.4rem;}
 .content-row {padding: 0;}
 .content-area-right {padding-left: 0;}
 .content-area-left {padding-right: 0;}
@@ -467,12 +466,11 @@ figure {margin: 0 -2rem;}
 #tabs .ui-state-active a {color: #fff;}
 .events-container {padding: 2rem;}
 .events-tab {margin-right: 3rem; margin-left: 2rem;}
-.news-links {padding: 1.5rem 0;}
 .news-jump {padding: 0;}
 .pride {margin-top: -6rem;}
 .top-links {text-align: left;}
 .top-links-content {padding: 0;}
-.top-links a {font-weight: 400; padding: 1rem 2rem; border-top: 1px solid #5e5d5d; border-bottom: 1px solid #222;}
+.top-links a {font-weight: 400; padding: 1rem 2rem; border-top: 1px solid #5e5d5d; border-bottom: 1px solid #222; font-size: 1.8rem;}
 .top-links i {display: inline; float: right;}
 .solo-title {margin-top: 4rem; margin-bottom: -1rem;}
 .tri-column .content-area {padding: 1rem 0;}
@@ -491,7 +489,7 @@ figure {margin: 0 -2rem;}
 .pres-bio {margin-top: 1.5rem;}
 .slider-overlay-content {bottom: 0;}
 .slider-container {min-height: 250px;}
-.messaging {border-bottom: 0px solid #400e10; margin: 0; display: block; line-height: 3.6rem;}
+.messaging {padding-bottom: 1.8rem !important; border-bottom: 0px solid #400e10; margin: 0; display: block; line-height: 3.6rem;}
 .slider-overlay-mobile {display: block; margin-left: 0;}
 .slider .play-overlay {margin-top: -7rem; left: 2rem;}
 .slider-image {opacity: 1;}
@@ -499,6 +497,7 @@ figure {margin: 0 -2rem;}
 
 @media (max-width: 35.5em) {
 .slider-container {min-height: 185px;}
+.research-play {bottom: calc(50% - 3.25rem + 6rem);}
 }
 
 
