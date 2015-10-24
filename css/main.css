@@ -342,7 +342,7 @@ input[type="search"]:focus, button {outline: none;}
 
 /* Responsive Styles */
 
-@media (max-width: 80em) {
+@media (max-width: 90em) {
 html {font-size: 57.5%;}
 .constrain, .drop-menu-content {max-width: 1000px;}
 .primary-logo img {max-width: 26rem;}
