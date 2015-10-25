@@ -440,12 +440,12 @@ a:hover, .primary-footer a:hover {background: transparent !important;}
 .hover-fx-2:hover i {animation: none !important;} */
 .hide-on-mobile, .super-user-menu, super-list, .txst-search, .main-nav, .slider-overlay-right, .hidden-caption, .slider-overlay-left {display: none;}
 .hover-fx-6 {-webkit-transition: all 0.2s cubic-bezier(0, 0.5, 0.25, 1); -moz-transition: all 0.2s cubic-bezier(0, 0.5, 0.25, 1); -o-transition: all 0.2s cubic-bezier(0, 0.5, 0.25, 1); transition: all 0.2s cubic-bezier(0, 0.5, 0.25, 1);}
-.mobile-menu {display: inline-block; text-align: right; position: relative; top: 2.5rem;}
-.mobile-menu a {text-transform: uppercase; text-decoration: none; color: #222; font-weight: 400; padding: 1rem 1.5rem; border: 1px solid #887860; border-radius: .3rem; box-shadow: 0px 2px 2px -2px #6a5638; background: #d1c7b7;}
+.mobile-menu {display: inline-block; text-align: right; position: relative; top: 2.8rem;}
+.mobile-menu a {text-transform: uppercase; text-decoration: none; color: #222; font-weight: 400; padding: 1rem 1.4rem; border: 1px solid #887860; border-radius: .3rem; box-shadow: 0px 2px 2px -2px #6a5638; background: #d1c7b7;}
 .mobile-menu a:hover {background: #d1c7b7;}
 .emergency-constrain {max-width: 100%;}
 .primary-logo {padding: 0;}
-.primary-logo img {max-width: 22rem;}
+.primary-logo img {max-width: 23rem;}
 h2 {margin-bottom: 2.5rem; font-size: 2.4rem;}
 .content-row {padding: 0;}
 .content-area-right {padding-left: 0;}
@@ -456,7 +456,7 @@ h2 {margin-bottom: 2.5rem; font-size: 2.4rem;}
 .tri-column .content-area-left {padding-right: 0;}
 .tri-column .content-area-center {padding: 0;}
 .header {height: auto; border-top: 1px solid #6a5638;}
-.header-content {padding: 2.5rem 2rem;}
+.header-content {padding: 2.5rem;}
 .slider-overlay-content {bottom: 0;}
 .slider-container {min-height: 250px;}
 .messaging {padding-bottom: 1.8rem !important; border-bottom: 0px solid #400e10; margin: 0; display: block; line-height: 3.6rem;}
@@ -465,7 +465,6 @@ h2 {margin-bottom: 2.5rem; font-size: 2.4rem;}
 .slider-image {opacity: 1;}
 .nivo-lightbox-prev {left: 2%;}
 .nivo-lightbox-next {right: 2%;}
-.primary-logo {padding: 0;}
 .top-links {text-align: left;}
 .top-links-content {padding: 0;}
 .top-links a {font-weight: 400; padding: 1.2rem 2rem; border-top: 1px solid #5e5d5d; border-bottom: 2px solid #222; font-size: 1.8rem;}
