@@ -65,7 +65,7 @@ $(document).ready(function() {
 // Fixed desktop navigation
 
 $(document).ready(function() {
-    $('.top_nav').scrollToFixed();
+    $('.main-nav').scrollToFixed();
 });
 
 // Back to top
@@ -90,58 +90,4 @@ var slideout = new Slideout({
 
 document.querySelector('.toggle-button').addEventListener('click', function() {
     slideout.toggle();
-});
-
-// Slick Slider
-
-$(document).ready(function(){
-  $('.slider').slick({
-    arrows: true,
-    infinite: true,
-	slidesToShow: 1,
-  	slidesToScroll: 1,
-  	dots: true,
-  	autoplay: true,
-  	autoplaySpeed: 7000,
-  	speed: 500,
-  });
-  $('.slider_2').slick({
-   	fade: true,
-  	cssEase: 'ease-in-out',
-  	autoplay: true,
-  	autoplaySpeed: 3000,
-  	arrows: true,
-    infinite: true,
-	slidesToShow: 1,
-  	slidesToScroll: 1,
-  	dots: true
-  });
-  $('.slider_3').slick({
-	autoplay: true,
-	autoplaySpeed: 4000,
-	centerMode: true,
-	infinite: true,
-	centerPadding: '60px',
-	slidesToShow: 3,
-	speed: 500,
-	swipeToSlide: true,
-	responsive: [{
-		breakpoint: 768,
-		settings: {
-			arrows: false,
-			centerMode: true,
-			centerPadding: '40px',
-			slidesToShow: 1
-		}
-	}]
-	});
-  $('.slider_4').slick({
-	centerMode: true,
-	infinite: true,
-	centerPadding: '60px',
-	slidesToShow: 1,
-	speed: 500,
-	focusOnSelect: true,
-	swipeToSlide: true,
-	});
 });
