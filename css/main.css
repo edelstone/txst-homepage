@@ -130,10 +130,13 @@ input[type="search"]:focus, button {outline: none;}
 .sub-nav-content li {line-height: 2rem; margin: 2rem 0; display: block;}
 .drop-caption-link {text-decoration: underline !important;}
 .drop-caption-link:hover {text-decoration: none !important; background: transparent !important;}
-.scroll-logo {transition: visibility 0s, opacity 0.2s linear; visibility: hidden; opacity: 0; max-width: 22.5rem; position: absolute; top: 1.6rem; left: -35rem;}
+.scroll-logo {transition: visibility 0s, opacity 0.2s linear; visibility: hidden; opacity: 0; max-width: 18rem; position: absolute; top: 1rem; left: -35rem;}
 .scroll-to-fixed-fixed {height: 0;}
-.scroll-to-fixed-fixed .main-nav-content {background: #d1c7b7; margin: 0 -100rem; padding: 0 100rem;    border-bottom: 2px solid #6a5638;}
+.scroll-to-fixed-fixed .main-nav-content {background: #d1c7b7; margin: 0 -100rem; padding: 0 100rem;    border-bottom: 2px solid #6a5638; text-align: right;}
 .scroll-to-fixed-fixed .scroll-logo {visibility: visible; opacity: 1;}
+.scroll-to-fixed-fixed .main-nav-link {font-size: 1.6rem; padding: 2rem 2.8rem;}
+.scroll-to-fixed-fixed .drop-menu {top: 5.5rem; text-align: left;}
+.scroll-to-fixed-fixed .sub-nav-content {margin: 4rem 0;}
 
 /* Slider */
 
