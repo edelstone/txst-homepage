@@ -95,7 +95,7 @@ input[type="search"]:focus, button {outline: none;}
 .main-nav {position: absolute; bottom: 1.2rem; right: 0.5rem;}
 .main-nav-list {list-style-type: none; padding: 0; margin: 0;}
 .main-nav-list li {display: inline-block;}
-.main-nav-link{display: block; color: #501214; text-decoration: none; font-weight: 700; font-size: 2rem; padding: 2.8rem;}
+.main-nav-link{display: block; color: #501214; text-decoration: none; font-weight: 700; font-size: 2rem; padding: 2.8rem; transition: font-size .1s ease;}
 .main-nav-link:hover {background: transparent;}
 .main-nav-end {padding-right: 0 !important;}
 .main-nav-start {padding-left: 0 !important;}
@@ -132,7 +132,7 @@ input[type="search"]:focus, button {outline: none;}
 .drop-caption-link:hover {text-decoration: none !important; background: transparent !important;}
 .scroll-logo {transition: visibility 0s, opacity 0.2s linear; visibility: hidden; opacity: 0; max-width: 18rem; position: absolute; top: 1rem; left: -35rem;}
 .scroll-to-fixed-fixed {height: 0;}
-.scroll-to-fixed-fixed .main-nav-content {background: #d1c7b7; margin: 0 -100rem; padding: 0 100rem;    border-bottom: 2px solid #6a5638; text-align: right;}
+.scroll-to-fixed-fixed .main-nav-content {background: #e8e3db; background: -moz-linear-gradient(top, #e8e3db 0%, #d1c7b7 100%); background: -webkit-gradient(left top, left bottom, color-stop(0%, #e8e3db), color-stop(100%, #d1c7b7)); background: -webkit-linear-gradient(top, #e8e3db 0%, #d1c7b7 100%); background: -o-linear-gradient(top, #e8e3db 0%, #d1c7b7 100%); background: -ms-linear-gradient(top, #e8e3db 0%, #d1c7b7 100%); background: linear-gradient(to bottom, #e8e3db 0%, #d1c7b7 100%); filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#e8e3db', endColorstr='#d1c7b7', GradientType=0 ); margin: 0 -100rem; padding: 0 100rem; border-bottom: 2px solid #6a5638; text-align: right;}
 .scroll-to-fixed-fixed .scroll-logo {visibility: visible; opacity: 1;}
 .scroll-to-fixed-fixed .main-nav-link {font-size: 1.6rem; padding: 2rem 2.8rem;}
 .scroll-to-fixed-fixed .drop-menu {top: 5.5rem; text-align: left;}
