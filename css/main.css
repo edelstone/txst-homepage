@@ -130,7 +130,10 @@ input[type="search"]:focus, button {outline: none;}
 .sub-nav-content li {line-height: 2rem; margin: 2rem 0; display: block;}
 .drop-caption-link {text-decoration: underline !important;}
 .drop-caption-link:hover {text-decoration: none !important; background: transparent !important;}
-.scroll-to-fixed-fixed .main-nav-content {background: #d1c7b7; margin: 0 -100rem; padding: 0 100rem;}
+.scroll-logo {transition: visibility 0s, opacity 0.2s linear; visibility: hidden; opacity: 0; max-width: 22.5rem; position: absolute; top: 1.6rem; left: -35rem;}
+.scroll-to-fixed-fixed {height: 0;}
+.scroll-to-fixed-fixed .main-nav-content {background: #d1c7b7; margin: 0 -100rem; padding: 0 100rem;    border-bottom: 2px solid #6a5638;}
+.scroll-to-fixed-fixed .scroll-logo {visibility: visible; opacity: 1;}
 
 /* Slider */
 
@@ -356,6 +359,7 @@ html {font-size: 58.5%;}
 .slider-overlay-content {bottom: 4.5rem;}
 .header {height: 160px;}
 figcaption {padding: 2rem;}
+.main-nav {bottom: 1.5rem;}
 .main-nav-link {padding: 2.8rem 2.5rem; font-size: 1.9rem;}
 .drop-menu {margin-left: -217%;}
 .sub-nav-content {padding: 0 2rem; margin: 4.5rem 0;}
@@ -374,6 +378,8 @@ figcaption {padding: 2rem;}
 .social-upper, .slideshow {min-height: 39rem;}
 .pres-message {margin-top: -.5rem;}
 .pres-updates-content {padding: 1.5rem 3rem; min-height: 22rem;}
+.scroll-to-fixed-fixed .main-nav-content {margin-right: -101rem;}
+.scroll-logo {max-width: 21rem; top: 1.6rem; left: -27.5rem;}
 }
 
 @media (max-width: 64em) {
@@ -424,6 +430,7 @@ figcaption {padding: 1.8rem;}
 .tweet {font-size: 2.2rem;}
 .pres-bio {margin-top: 1rem; line-height: 2.4rem;}
 .pres-updates-content {padding: .5rem .5rem .5rem 2rem; min-height: 0;}
+.scroll-to-fixed-fixed .main-nav-content {margin-right: -100rem;}
 }
 
 @media (max-width: 48em) {

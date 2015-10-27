@@ -65,7 +65,7 @@ $(document).ready(function() {
 // Fixed desktop navigation
 
 $(document).ready(function() {
-    $('.main-nav').scrollToFixed();
+  $('.main-nav').scrollToFixed();
 });
 
 // Back to top
