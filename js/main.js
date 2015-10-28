@@ -1,3 +1,14 @@
+
+$(".accordion").accordion({
+	collapsible: true,
+	active: false,
+	animate: 150,
+	heightStyle: "content",
+	alwaysOpen: false,
+	active: false
+});
+
+
 // No delay on mobile tapping
 
 window.addEventListener('load', function() {
