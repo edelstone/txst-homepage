@@ -79,8 +79,8 @@ $('.btt').on("click", function() {
 // Mobile navigation
 
 var slideout = new Slideout({
-    'panel': document.getElementById('panel'),
-	'menu': document.getElementById('menu'),
+    'panel': document.getElementById('layout'),
+	'menu': document.getElementById('mobile-menu'),
 	'padding': 300,
 	'tolerance': 70,
 	'side': 'right',
@@ -88,6 +88,22 @@ var slideout = new Slideout({
 	'touch': false
 });
 
-document.querySelector('.toggle-button').addEventListener('click', function() {
+document.querySelector('.menu-button').addEventListener('click', function() {
+    slideout.toggle();
+});
+
+// Mobile navigation
+
+var slideout = new Slideout({
+    'panel': document.getElementById('mobile-nav'),
+	'menu': document.getElementById('mobile-menu-2'),
+	'padding': 300,
+	'tolerance': 70,
+	'side': 'right',
+	'duration': 300,
+	'touch': false
+});
+
+document.querySelector('.menu-button-2').addEventListener('click', function() {
     slideout.toggle();
 });

@@ -250,7 +250,7 @@ input[type="search"]:focus, button {outline: none;}
 .research .slider-overlay-right {z-index: 0; position: absolute; top: 2rem; right: 0; margin-right: 6rem;}
 .research .slider-overlay-right a {margin-left: -0.3rem; background: #d1c7b7; color: #363534;} 
 .research .slider-overlay-right a:hover {background: #6a5638; color: #ffffff;}
-.gallery_link, .primary_link {margin: 0; padding: 0;}
+.gallery-link, .primary-link {margin: 0; padding: 0;}
 
 /* Pride, BAB, RS */
 
@@ -363,8 +363,8 @@ html {font-size: 58.5%;}
 .header {height: 160px;}
 figcaption {padding: 2rem;}
 .main-nav {bottom: 1.2rem;}
-.main-nav-link {padding: 2.8rem 2.5rem; font-size: 1.9rem;}
-.drop-menu {margin-left: -217%;}
+.main-nav-link {padding: 2.8rem 2.4rem; font-size: 1.9rem;}
+.drop-menu {margin-left: -217.4%;}
 .sub-nav-content {padding: 0 2rem; margin: 4.5rem 0;}
 .sub-nav-future-1, .sub-nav-current-1, .sub-nav-faculty-1, .sub-nav-alumni-1 {padding-left: 0; padding-right: 3.5rem;}
 /* .future-menu:after {left: 44.6%;}
@@ -381,7 +381,7 @@ figcaption {padding: 2rem;}
 .social-upper, .slideshow {min-height: 39rem;}
 .pres-message {margin-top: -.5rem;}
 .pres-updates-content {padding: 1.5rem 3rem; min-height: 22rem;}
-.scroll-logo {top: 1rem; left: -27.5rem;}
+.scroll-logo {top: 1rem; left: -28rem;}
 }
 
 @media (max-width: 64em) {
@@ -453,7 +453,7 @@ a:hover, .primary-footer a:hover {background: transparent !important;}
 .hover-fx-2:hover i {animation: none !important;} */
 .hide-on-mobile, .super-user-menu, super-list, .txst-search, .main-nav, .slider-overlay-right, .hidden-caption, .slider-overlay-left {display: none;}
 .hover-fx-6 {-webkit-transition: all 0.2s cubic-bezier(0, 0.5, 0.25, 1); -moz-transition: all 0.2s cubic-bezier(0, 0.5, 0.25, 1); -o-transition: all 0.2s cubic-bezier(0, 0.5, 0.25, 1); transition: all 0.2s cubic-bezier(0, 0.5, 0.25, 1);}
-.mobile-menu {display: inline-block; text-align: right; position: relative; top: 3rem;}
+.mobile-menu {display: inline-block; text-align: right; position: relative; top: 3.8rem;}
 .mobile-menu a {text-transform: uppercase; text-decoration: none; color: #222; font-weight: 400; padding: .8rem 1.2rem; border: 1px solid #887860; border-radius: .3rem; box-shadow: 0px 2px 2px -2px #6a5638; background: #d1c7b7; font-size: 1.5rem;}
 .mobile-menu a:hover {background: #d1c7b7;}
 .emergency {display: none;}
@@ -538,6 +538,34 @@ h2 {margin-bottom: 2.5rem; font-size: 2.4rem;}
 .research-play {bottom: calc(50% - 3.25rem + 6rem);}
 }
 
+/* Mobile */
 
-
-
+.slideout-menu {position: fixed; left: auto; top: 0; bottom: 0; right: 0; z-index: 0; width: 300px; overflow-y: auto; -webkit-overflow-scrolling: touch; display: none;}
+.slideout-panel {position:relative; z-index: 1;}
+.slideout-open, .slideout-open body, .slideout-open .slideout-panel {overflow: hidden;}
+.slideout-open .slideout-menu {display: block;}
+.mobile-nav {background: #363534;}
+.mobile-nav ul {list-style: none; padding: 0; margin: 0;}
+.mobile-nav a {text-decoration: none;}
+.mobile-nav-container {font-size: 1.6rem; padding: 1.8rem; letter-spacing: 1px;}
+.mobile-search {height: 6.5rem;}
+.search.mobile-search {width: 100%; border-radius: 0; border: 10px solid #262524; background: #EBEBEB; box-sizing: border-box; height: 6.5rem; padding-left: 1rem; position: absolute;}
+.search-bar.mobile-search-bar {width: 100%; height: 6.5rem;}
+.icon.mobile-icon, .icon.mobile-icon:hover {border-radius: 0; background: #262524; color: #D7D7D7; height: 6.5rem; width: 4.2rem; right: 1rem; position: absolute; font-size: 1.8rem; border: 0;}
+.mobile-search::-webkit-input-placeholder {color: #484848;}
+.mobile-search:-moz-placeholder {color: #484848;}
+.mobile-search::-moz-placeholder {color: #484848;}
+.mobile-search:-ms-input-placeholder {color: #484848;}
+.mobile-dept a {color: #D7D7D7; line-height: 2.5rem; font-size: 2.8rem;}
+.mobile-dept a:hover {background: transparent;}
+.mobile-primary-nav a:hover {color: #FFFFFF; background: #262524;}
+.mobile-primary-nav a, .side-nav-mobile {text-transform: uppercase; font-weight: 400; color: #D7D7D7; display: block; border-bottom: 1px solid #262524; margin: 2.5rem -1.8rem 0 -1.8rem; padding: 1.6rem 1.8rem 1.4rem 1.8rem;}
+.mobile-secondary-nav a {text-transform: none; font-weight: 100; margin: 0 -1.8rem; padding: 0.4rem 1.8rem; line-height: 2.8rem;}
+.mobile-secondary-nav li {margin-bottom: 0;}
+.mobile-super-user {background-color: #262524;}
+.super-list.mobile-super-list {text-align: left; padding: 1.3rem 1rem 1rem 1rem;}
+.mobile-super-list li {display: block;}
+.mobile-super-list a {color: #D7D7D7; padding: .5rem 1rem; border: none; margin: 0 -1rem;}
+.mobile-super-list a:hover {background: transparent; color: #FFFFFF; background: #363534;}
+.solo-nav {border-bottom: none !important; }
+.terminal-page {color: #D7D7D7;}
