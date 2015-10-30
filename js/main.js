@@ -102,19 +102,3 @@ var slideout = new Slideout({
 document.querySelector('.menu-button').addEventListener('click', function() {
     slideout.toggle();
 });
-
-// Mobile navigation
-
-var slideout = new Slideout({
-    'panel': document.getElementById('mobile-nav'),
-	'menu': document.getElementById('mobile-menu-2'),
-	'padding': 300,
-	'tolerance': 70,
-	'side': 'right',
-	'duration': 300,
-	'touch': false
-});
-
-document.querySelector('.menu-button-2').addEventListener('click', function() {
-    slideout.toggle();
-});
