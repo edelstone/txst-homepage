@@ -126,7 +126,7 @@ input[type="search"]:focus, button {outline: none;}
 .sub-nav-button-3 {padding: 1.1rem 3rem !important;}
 .sub-nav-button i {font-size: 2.5rem; margin-left: 1.5rem; vertical-align: sub;}
 .sub-nav-content ul {padding-left: 1rem;}
-.sub-nav-current-2 ul, .sub-nav-faculty-2 ul, .sub-nav-alumni-2 ul {padding-left: 0;}
+.sub-nav-future-2 ul, .sub-nav-current-2 ul, .sub-nav-faculty-2 ul, .sub-nav-alumni-2 ul {padding-left: 0;}
 .sub-nav-content li {line-height: 2rem; margin: 2rem 0; display: block;}
 .drop-caption-link {text-decoration: underline !important;}
 .drop-caption-link:hover {text-decoration: none !important; background: transparent !important;}
@@ -137,6 +137,7 @@ input[type="search"]:focus, button {outline: none;}
 .scroll-to-fixed-fixed .scroll-logo {visibility: visible; opacity: 1;}
 .scroll-to-fixed-fixed .main-nav-link {font-size: 1.6rem; padding: 2rem 2.8rem;}
 .scroll-to-fixed-fixed .drop-menu {top: 5.5rem; text-align: left;}
+#mobile-menu {display: none;}
 
 /* Slider */
 
@@ -452,6 +453,7 @@ a:hover, .primary-footer a:hover {background: transparent !important;}
 .legal-footer a:hover {text-decoration: none !important;}
 .hover-fx-2:hover i {animation: none !important;} */
 .hide-on-mobile, .super-user-menu, super-list, .txst-search, .main-nav, .slider-overlay-right, .hidden-caption, .slider-overlay-left {display: none;}
+#mobile-menu {display: block;}
 .hover-fx-6 {-webkit-transition: all 0.2s cubic-bezier(0, 0.5, 0.25, 1); -moz-transition: all 0.2s cubic-bezier(0, 0.5, 0.25, 1); -o-transition: all 0.2s cubic-bezier(0, 0.5, 0.25, 1); transition: all 0.2s cubic-bezier(0, 0.5, 0.25, 1);}
 .mobile-menu {display: inline-block; text-align: right; position: relative; top: 3.8rem;}
 .mobile-menu a {text-transform: uppercase; text-decoration: none; color: #222; font-weight: 400; padding: .8rem 1.2rem; border: 1px solid #887860; border-radius: .3rem; box-shadow: 0px 2px 2px -2px #6a5638; background: #d1c7b7; font-size: 1.5rem;}
@@ -569,3 +571,12 @@ h2 {margin-bottom: 2.5rem; font-size: 2.4rem;}
 .mobile-super-list a:hover {background: transparent; color: #FFFFFF; background: #363534;}
 .solo-nav {border-bottom: none !important; }
 .terminal-page {color: #D7D7D7;}
+.accordion h3 {margin: 0;}
+.accordion h3 a {text-transform: none; font-size: 1.6rem; font-weight: 100; margin-top: 0; padding: 0.9rem 1.8rem;}
+.accordion li a {background: #262524; border-bottom: 1px solid #363534;}
+.accordion i {float: right;}
+.ui-accordion-content {padding: 0 1.8rem; margin: 0 -1.8rem;}
+.accordion .ui-state-default .fa-chevron-right {display: inline-block;}
+.accordion .ui-state-active .fa-chevron-right {display: none;}
+.accordion .ui-state-default .fa-chevron-down {display: none;}
+.accordion .ui-state-active .fa-chevron-down {display: inline-block;}
