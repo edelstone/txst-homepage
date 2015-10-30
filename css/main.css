@@ -551,6 +551,7 @@ h2 {margin-bottom: 2.5rem; font-size: 2.4rem;}
 .mobile-nav a {text-decoration: none;}
 .mobile-nav-container {font-size: 1.6rem; padding: 1.8rem; letter-spacing: 1px;}
 .mobile-search {height: 6.5rem;}
+input {-webkit-appearance: none !important;}
 .search.mobile-search {width: 100%; border-radius: 0; border: 10px solid #262524; background: #EBEBEB; box-sizing: border-box; height: 6.5rem; padding-left: 1rem; position: absolute;}
 .search-bar.mobile-search-bar {width: 100%; height: 6.5rem;}
 .icon.mobile-icon, .icon.mobile-icon:hover {border-radius: 0; background: #262524; color: #D7D7D7; height: 6.5rem; width: 4.2rem; right: 1rem; position: absolute; font-size: 1.8rem; border: 0;}
