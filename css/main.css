@@ -137,7 +137,6 @@ input[type="search"]:focus, button {outline: none;}
 .scroll-to-fixed-fixed .scroll-logo {visibility: visible; opacity: 1;}
 .scroll-to-fixed-fixed .main-nav-link {font-size: 1.6rem; padding: 2rem 2.8rem;}
 .scroll-to-fixed-fixed .drop-menu {top: 5.5rem; text-align: left;}
-#mobile-menu {display: none;}
 
 /* Slider */
 
@@ -453,7 +452,6 @@ a:hover, .primary-footer a:hover {background: transparent !important;}
 .legal-footer a:hover {text-decoration: none !important;}
 .hover-fx-2:hover i {animation: none !important;} */
 .hide-on-mobile, .super-user-menu, super-list, .txst-search, .main-nav, .slider-overlay-right, .hidden-caption, .slider-overlay-left {display: none;}
-#mobile-menu {display: block;}
 .hover-fx-6 {-webkit-transition: all 0.2s cubic-bezier(0, 0.5, 0.25, 1); -moz-transition: all 0.2s cubic-bezier(0, 0.5, 0.25, 1); -o-transition: all 0.2s cubic-bezier(0, 0.5, 0.25, 1); transition: all 0.2s cubic-bezier(0, 0.5, 0.25, 1);}
 .mobile-menu {display: inline-block; text-align: right; position: relative; top: 3.8rem;}
 .mobile-menu a {text-transform: uppercase; text-decoration: none; color: #222; font-weight: 400; padding: .8rem 1.2rem; border: 1px solid #887860; border-radius: .3rem; box-shadow: 0px 2px 2px -2px #6a5638; background: #d1c7b7; font-size: 1.5rem;}
