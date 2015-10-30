@@ -141,7 +141,7 @@ input[type="search"]:focus, button {outline: none;}
 
 /* Mobile Navigation */
 
-#mobile-menu {background: #363534;}
+#mobile-menu {background: red;}
 .slideout-menu {position: fixed; left: auto; top: 0; bottom: 0; right: 0; z-index: 0; width: 300px; overflow-y: auto; -webkit-overflow-scrolling: touch; display: none;}
 .slideout-panel {position: relative; z-index: 1;}
 .slideout-open, .slideout-open body, .slideout-open .slideout-panel {overflow: hidden;}
@@ -163,18 +163,17 @@ input {-webkit-appearance: none !important;}
 .mobile-dept a:hover {background: transparent;}
 .mobile-primary-nav a:hover {color: #FFFFFF; background: #262524;}
 .mobile-primary-nav a, .side-nav-mobile {text-transform: uppercase; font-weight: 400; color: #D7D7D7; display: block; border-bottom: 1px solid #262524; margin: 2.5rem -1.8rem 0 -1.8rem; padding: 1.6rem 1.8rem 1.4rem 1.8rem;}
-.mobile-secondary-nav a {text-transform: none; font-weight: 100; margin: 0 -1.8rem; padding: 0.4rem 1.8rem; line-height: 2.8rem;}
+.mobile-secondary-nav a {text-transform: none; font-weight: 100; margin: 0 -1.8rem; padding: 0.5rem 1.8rem; line-height: 2.8rem;}
 .mobile-secondary-nav li {margin-bottom: 0;}
 .mobile-super-user {background-color: #262524;}
 .mobile-super-list {text-align: left; padding: 1.8rem !important;;}
-.mobile-super-list li {display: block;}
-.mobile-super-list a {display: block; color: #D7D7D7; padding: 1.4rem 1.8rem; border: none; margin: 0 -1.8rem; font-weight: 400; text-transform: uppercase; letter-spacing: 1px; font-size: 1.4rem;}
-.mobile-super-list a:hover {background: transparent; color: #FFFFFF; background: #363534;}
+.mobile-super-list a {display: block; color: #D7D7D7; padding: 1.2rem 1.8rem; border: none; margin: 0 -1.8rem; font-weight: 400; text-transform: uppercase; letter-spacing: 1px; font-size: 1.4rem;}
+.mobile-super-list a:hover {color: #FFFFFF; background: #363534;}
 .solo-nav {border-bottom: none !important; }
 .terminal-page {color: #D7D7D7;}
 .accordion h3 {margin: 0;}
-.accordion h3 a {text-transform: none; font-size: 1.6rem; font-weight: 100; margin-top: 0; padding: 0.9rem 1.8rem;}
-.accordion li a {background: #262524; border-bottom: 0 solid #363534;}
+.accordion h3 a {text-transform: none; font-size: 1.6rem; font-weight: 100; margin-top: 0; padding: 1rem 1.8rem;}
+.accordion li a {background: #262524; border-bottom: 1px solid #262524;}
 .accordion i {float: right;}
 .ui-accordion-content {padding: 0 1.8rem; margin: 0 -1.8rem;}
 .accordion .ui-state-default .fa-chevron-right {display: inline-block;}
