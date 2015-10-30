@@ -504,7 +504,6 @@ a:hover, .primary-footer a:hover {background: transparent !important;}
 .mobile-menu {display: inline-block; text-align: right; position: relative; top: 3.8rem;}
 .mobile-menu a {text-transform: uppercase; text-decoration: none; color: #222; font-weight: 400; padding: .8rem 1.2rem; border: 1px solid #887860; border-radius: .3rem; box-shadow: 0px 2px 2px -2px #6a5638; background: #d1c7b7; font-size: 1.5rem;}
 .mobile-menu a:hover {background: #d1c7b7;}
-.emergency {display: none;}
 .emergency-constrain {max-width: 100%;}
 .primary-logo {padding: 0;}
 .primary-logo img {max-width: 23rem;}
