@@ -402,14 +402,13 @@ input {-webkit-appearance: none !important;}
 @media (max-width: 90em) {
 html {font-size: 58.5%;}
 .constrain, .drop-menu-content {max-width: 1000px;}
-.emergency-constrain {max-width: 60%;}
 .primary-logo img {max-width: 24rem;}
 .txst-search {top: 0.95rem;}
 .slider-container {min-height: 500px;}
 .slider-overlay-content {bottom: 4.5rem;}
-.header {height: 160px;}
+.header {height: 158px;}
 figcaption {padding: 2rem;}
-.main-nav {bottom: 1.2rem;}
+.main-nav {bottom: 1rem;}
 .main-nav-link {padding: 2.8rem 2.4rem; font-size: 1.9rem;}
 .drop-menu {margin-left: -217.4%;}
 .sub-nav-content {padding: 0 2rem; margin: 4.5rem 0;}
@@ -434,7 +433,6 @@ figcaption {padding: 2rem;}
 @media (max-width: 64em) {
 html {font-size: 54.5%;}
 .constrain, .drop-menu-content {padding-left: 2rem; padding-right: 2rem;}
-.emergency-constrain {max-width: 70%;}
 .header {height: 190px;}
 .header-content {max-width: 1024px; padding: 2.5rem 0;}
 .primary-logo {padding-left: 5rem;}
