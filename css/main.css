@@ -161,18 +161,18 @@ input {-webkit-appearance: none !important;}
 .mobile-search::-moz-placeholder {color: #484848;}
 .mobile-search:-ms-input-placeholder {color: #484848;}
 .mobile-dept a {color: #D7D7D7; line-height: 3.5rem; font-size: 3rem;}
-.mobile-dept a:hover {background: transparent; color: #FFFFFF;}
-.mobile-primary-nav a:hover {color: #FFFFFF; background: #262524;}
+.mobile-dept a:hover {background: transparent;}
+.mobile-primary-nav a:hover {background: transparent;}
 .mobile-primary-nav a, .side-nav-mobile {text-transform: uppercase; font-weight: 400; color: #D7D7D7; display: block; border-bottom: 1px solid #262524; border-top: 1px solid #4a4948; margin: 2.5rem -1.8rem 0 -1.8rem; padding: 1.6rem 1.8rem 1.4rem 1.8rem;}
 .mobile-secondary-nav a {text-transform: none; font-weight: 100; margin: 0 -1.8rem; padding: 0.5rem 1.8rem; line-height: 2.8rem;}
+.accordion .mobile-secondary-nav a:hover {background: #262524;}
 .mobile-secondary-nav li {margin-bottom: 0;}
 .mobile-super-user {background-color: #262524;}
 .mobile-super-list {text-align: left; padding: 1.8rem !important;;}
 .mobile-super-list a {display: block; color: #D7D7D7; padding: 1.2rem 1.8rem; border: none; margin: 0 -1.8rem; font-weight: 400; text-transform: uppercase; letter-spacing: 1px; font-size: 1.4rem;}
-.mobile-super-list a:hover {color: #FFFFFF; background: #363534;}
+.mobile-super-list a:hover {background: transparent;}
 .mobile-super-user-2 {background: #111111;}
 .mobile-emphasis i {vertical-align: text-top; margin-left: 1rem; font-size: 2rem;}
-.mobile-emphasis {color: #FFFFFF !important; font-weight: 400 !important;}
 .accordion h3 {margin: 0;}
 .accordion h3 a {text-transform: none; font-size: 1.6rem; font-weight: 100; margin-top: 0; padding: 1rem 1.8rem; border-bottom: 1px solid transparent;}
 .accordion li a {background: #262524; border-bottom: 1px solid #262524; border-top: 1px solid #262524;}
