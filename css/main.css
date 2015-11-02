@@ -147,6 +147,7 @@ input[type="search"]:focus, button {outline: none;}
 .slideout-open, .slideout-open body, .slideout-open .slideout-panel {overflow: hidden;}
 .slideout-open .slideout-menu {display: block;}
 .mobile-nav {background: #363534;}
+.mobile-top-nav {border-top: none !important;}
 .mobile-nav ul {list-style: none; padding: 0; margin: 0;}
 .mobile-nav a {text-decoration: none;}
 .mobile-nav-container {font-size: 1.6rem; padding: 1.8rem; letter-spacing: 1px;}
@@ -159,31 +160,27 @@ input {-webkit-appearance: none !important;}
 .mobile-search:-moz-placeholder {color: #484848;}
 .mobile-search::-moz-placeholder {color: #484848;}
 .mobile-search:-ms-input-placeholder {color: #484848;}
-.mobile-dept a {color: #D7D7D7; line-height: 2.5rem; font-size: 2.8rem;}
-.mobile-dept a:hover {background: transparent;}
-.about-nav {margin-top: 3rem !important;}
-.about-nav li {display: inline;}
-.about-nav a {color: #222; text-transform: uppercase; background: #d7d7d7; display: inline-block; margin: 0 0.5rem 1rem 0; font-weight: 400; font-size: 1.4rem; padding: 0.6rem 1rem;}
-.about-nav a:hover {background: #ebebeb;} 
+.mobile-dept a {color: #D7D7D7; line-height: 3.5rem; font-size: 3rem;}
+.mobile-dept a:hover {background: transparent; color: #FFFFFF;}
 .mobile-primary-nav a:hover {color: #FFFFFF; background: #262524;}
-.mobile-primary-nav a, .side-nav-mobile {text-transform: uppercase; font-weight: 400; color: #D7D7D7; display: block; border-bottom: 1px solid #262524; margin: 2.5rem -1.8rem 0 -1.8rem; padding: 1.6rem 1.8rem 1.4rem 1.8rem;}
+.mobile-primary-nav a, .side-nav-mobile {text-transform: uppercase; font-weight: 400; color: #D7D7D7; display: block; border-bottom: 1px solid #262524; border-top: 1px solid #4a4948; margin: 2.5rem -1.8rem 0 -1.8rem; padding: 1.6rem 1.8rem 1.4rem 1.8rem;}
 .mobile-secondary-nav a {text-transform: none; font-weight: 100; margin: 0 -1.8rem; padding: 0.5rem 1.8rem; line-height: 2.8rem;}
 .mobile-secondary-nav li {margin-bottom: 0;}
 .mobile-super-user {background-color: #262524;}
 .mobile-super-list {text-align: left; padding: 1.8rem !important;;}
 .mobile-super-list a {display: block; color: #D7D7D7; padding: 1.2rem 1.8rem; border: none; margin: 0 -1.8rem; font-weight: 400; text-transform: uppercase; letter-spacing: 1px; font-size: 1.4rem;}
 .mobile-super-list a:hover {color: #FFFFFF; background: #363534;}
-.solo-nav {border-bottom: none !important; }
-.terminal-page {color: #D7D7D7;}
+.mobile-super-user-2 {background: #111111;}
 .accordion h3 {margin: 0;}
-.accordion h3 a {text-transform: none; font-size: 1.6rem; font-weight: 100; margin-top: 0; padding: 1rem 1.8rem;}
-.accordion li a {background: #262524; border-bottom: 1px solid #262524;}
-.accordion i {float: right;}
+.accordion h3 a {text-transform: none; font-size: 1.6rem; font-weight: 100; margin-top: 0; padding: 1rem 1.8rem; border-bottom: none;}
+.accordion li a {background: #262524; border-bottom: 1px solid #262524; border-top: 1px solid #262524;}
+.accordion i {margin-left: 1rem; vertical-align: bottom;}
 .ui-accordion-content {padding: 0 1.8rem; margin: 0 -1.8rem;}
 .accordion .ui-state-default .fa-chevron-right {display: inline-block;}
 .accordion .ui-state-active .fa-chevron-right {display: none;}
 .accordion .ui-state-default .fa-chevron-down {display: none;}
 .accordion .ui-state-active .fa-chevron-down {display: inline-block;}
+.sub-accordion h3 a {text-transform: uppercase; font-size: 1.4rem; font-weight: 400;}
 
 /* Slider */
 
@@ -425,7 +422,7 @@ figcaption {padding: 2rem;}
 .research .slider-overlay-right {margin-right: 4rem;}
 .research-play {left: calc(50% - 3.25rem - 2rem); bottom: calc(50% - 3.25rem + 5rem);}
 .social-upper, .slideshow {min-height: 39rem;}
-.pres-message {margin-top: -.5rem;}
+.pres-bio {margin-top: 2.5rem; line-height: 2.4rem;}
 .pres-updates-content {padding: 1.5rem 3rem; min-height: 22rem;}
 .scroll-logo {top: 1rem; left: -28rem;}
 }
@@ -528,7 +525,7 @@ h2 {margin-bottom: 2.5rem; font-size: 2.4rem;}
 .nivo-lightbox-next {right: 2%;}
 .top-links {text-align: left;}
 .top-links-content {padding: 0;}
-.top-links a {font-weight: 400; padding: 1.2rem 2rem; border-top: 1px solid #5e5d5d; border-bottom: 2px solid #222; font-size: 1.8rem;}
+.top-links a {font-weight: 400; padding: 1.2rem 2rem; border-top: 1px solid #4a4948; border-bottom: 2px solid #262524; font-size: 1.8rem;}
 .top-links i {display: inline; float: right; position: relative; top: .2rem;}
 .news-jump {padding: 0; margin-top: -1.5rem;}
 .news {margin-bottom: 1.8rem;}
