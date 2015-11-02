@@ -171,6 +171,8 @@ input {-webkit-appearance: none !important;}
 .mobile-super-list a {display: block; color: #D7D7D7; padding: 1.2rem 1.8rem; border: none; margin: 0 -1.8rem; font-weight: 400; text-transform: uppercase; letter-spacing: 1px; font-size: 1.4rem;}
 .mobile-super-list a:hover {color: #FFFFFF; background: #363534;}
 .mobile-super-user-2 {background: #111111;}
+.mobile-emphasis i {vertical-align: text-top; margin-left: 1rem; font-size: 2rem;}
+.mobile-emphasis {background: #4a4948; color: #FFFFFF !important;}
 .accordion h3 {margin: 0;}
 .accordion h3 a {text-transform: none; font-size: 1.6rem; font-weight: 100; margin-top: 0; padding: 1rem 1.8rem; border-bottom: none;}
 .accordion li a {background: #262524; border-bottom: 1px solid #262524; border-top: 1px solid #262524;}
@@ -345,10 +347,10 @@ input {-webkit-appearance: none !important;}
 
 /* President */
 
-.pres-message {margin-top: 2.2rem;}
+.pres-message {margin-top: 0;}
 .pres-message a, .pres-updates a {padding: 0; margin: 0; color: #501214;}
 .pres-message a:hover, .pres-updates a:hover {background: transparent; text-decoration: none;}
-.pres-bio {margin-top: 3.5rem; line-height: 2.8rem;}
+.pres-bio {line-height: 2.8rem;}
 .pres-quote {font-weight: 700; margin: 0;}
 .president .solo-bailout a {color: #501214;}
 .president .solo-bailout a:hover {background-color: #d1c7b7;}
@@ -422,7 +424,7 @@ figcaption {padding: 2rem;}
 .research .slider-overlay-right {margin-right: 4rem;}
 .research-play {left: calc(50% - 3.25rem - 2rem); bottom: calc(50% - 3.25rem + 5rem);}
 .social-upper, .slideshow {min-height: 39rem;}
-.pres-bio {margin-top: 2.5rem; line-height: 2.4rem;}
+.pres-bio {line-height: 2.5rem;}
 .pres-updates-content {padding: 1.5rem 3rem; min-height: 22rem;}
 .scroll-logo {top: 1rem; left: -28rem;}
 }
@@ -472,7 +474,7 @@ figcaption {padding: 1.8rem;}
 .research .slider-overlay-right {margin-right: 1.5rem;}
 .research-play {left: calc(50% - 3.25rem - .75rem); bottom: calc(50% - 3.25rem + 5rem);}
 .tweet {font-size: 2.2rem;}
-.pres-bio {margin-top: 1rem; line-height: 2.4rem;}
+.pres-bio {line-height: 2.4rem;}
 .pres-updates-content {padding: .5rem .5rem .5rem 2rem; min-height: 0;}
 .scroll-to-fixed-fixed .drop-menu {top: 5.2rem;}
 .scroll-to-fixed-fixed .scroll-logo {visibility: hidden; opacity: 0;}
@@ -555,7 +557,6 @@ h2 {margin-bottom: 2.5rem; font-size: 2.4rem;}
 .twitter {background: #e8e3db; margin: 2rem -2rem; padding: 2rem !important;}
 .tweet {padding: 0 2rem;}
 .fb-content {padding: 0;}
-.pres-bio {margin-top: 1.5rem;}
 .president .solo-bailout a {display: block; padding: 2rem 0; background: #501214; border-radius: 3px; color: #fff; margin: 0;}
 .president .solo-bailout a:hover {background: #622a2b;}
 .footer {text-align: center;}
