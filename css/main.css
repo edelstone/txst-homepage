@@ -172,7 +172,7 @@ input {-webkit-appearance: none !important;}
 .mobile-super-list a:hover {color: #FFFFFF; background: #363534;}
 .mobile-super-user-2 {background: #111111;}
 .mobile-emphasis i {vertical-align: text-top; margin-left: 1rem; font-size: 2rem;}
-.mobile-emphasis {background: #4a4948; color: #FFFFFF !important;}
+.mobile-emphasis {color: #FFFFFF !important; font-weight: 700 !important;}
 .accordion h3 {margin: 0;}
 .accordion h3 a {text-transform: none; font-size: 1.6rem; font-weight: 100; margin-top: 0; padding: 1rem 1.8rem; border-bottom: 1px solid transparent;}
 .accordion li a {background: #262524; border-bottom: 1px solid #262524; border-top: 1px solid #262524;}
