@@ -185,6 +185,7 @@ input {-webkit-appearance: none !important;}
 .sub-accordion h3 a {text-transform: uppercase; font-size: 1.4rem; font-weight: 400;}
 .sub-accordion .more-links {padding: 1.2rem 1.8rem; border: none;}
 .sub-accordion li a {border: none;}
+.undergrad-grad {border-bottom: 1px solid #262524 !important;}
 
 /* Slider */
 
