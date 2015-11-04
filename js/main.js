@@ -15,7 +15,7 @@ window.addEventListener('load', function() {
 	FastClick.attach(document.body);
 }, false);
 
-// Background image delay and fade 
+// Background image delay and fade
 
 $(window).load(function() {
     $(".slider-image, .slider-overlay-right").delay(0).animate({
