@@ -1,3 +1,4 @@
+// Accordion effects
 
 $(".accordion").accordion({
 	collapsible: true,
@@ -7,7 +8,6 @@ $(".accordion").accordion({
 	alwaysOpen: false,
 	active: false
 });
-
 
 // No delay on mobile tapping
 
