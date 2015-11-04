@@ -250,18 +250,15 @@ input {-webkit-appearance: none !important;}
 .events-container {background: #501214; padding: 4rem; color: #FFFFFF;}
 .events-container a {color: #FFFFFF;}
 .events-container a:hover {background: transparent; text-decoration: none;}
-.event-block {overflow: hidden; margin-bottom: 4rem;}
-.cal-icon, .cal-icon-2 {text-align: center; margin-right: 3rem; float: left; width: 8.5rem;}
-.cal-icon-2 {background: #6a5638;}
+.event-block {min-height: 8.5rem; overflow: hidden; margin-bottom: 4rem;}
+.cal-icon, .cal-icon-2 {text-align: center; margin-right: 3rem; float: left; width: 8.5rem; position: relative; z-index: 1; background: #622a2b;}
 .cal-icon p {margin: 0; display: inline-block; width: 100%;}
 .cal-icon a {text-decoration: none; display: block; margin: 0;}
 .cal-icon-2 a {font-weight: 400; text-decoration: none; display: block; padding: .8rem 0; margin: 0; line-height: 2.3rem;}
-.cal-date a {font-size: 4.2rem; padding: 2rem 0 1.8rem 0;}
-.cal-date {background: #622a2b;}
-.cal-month a {text-transform: uppercase; font-weight: 400; font-size: 1.3rem; letter-spacing: 1px; background: #6a5638; padding: .5rem 0 .3rem 0; border-bottom: 1px solid #887860;}
-.cal-month a:hover {background: #6a5638;}
+.cal-date a {font-size: 4.2rem; padding: 1.2rem 0 1.8rem 0;}
+.cal-month a {text-transform: uppercase; font-weight: 400; font-size: 1.3rem; letter-spacing: 1px; padding: .8rem 0 0 0;}
 .event-title a {font-size: 2rem; font-weight: 700;}
-.event-time {margin-top: -0.5rem;}
+.event-time {margin-top: -.8rem; font-size: 1.5rem;}
 .cal-range {margin: 0;}
 .range-start, .range-to, .range-end {display: block;}
 .range-to {font-size: 1.3rem;}
@@ -273,14 +270,7 @@ input {-webkit-appearance: none !important;}
 .cal-jumps ul {text-align: center;}
 .cal-jumps li {margin-right: 2.5rem;}
 .fade-bg {background: #501214;}
-.cal-icon-3 {margin-right: 2rem; position: relative; right: .5rem; z-index: 1;}
-.cal-icon-3 .cal-date {background: #501214;}
-.cal-icon-3 .cal-date a {padding-top: 0.5rem;}
-.cal-icon-3 .cal-month {vertical-align: super;}
-.cal-icon-3 .cal-month a {background: #501214; border-bottom: none;}
-.cal-icon-3 .cal-month a:hover {background: #501214;}
-.imp-date-block .event-title {position: relative; top: 0.5rem; z-index: 0;}
-.imp-date-block {margin-bottom: 1.8rem;}
+.imp-date-block .event-title {position: relative; top: 1rem; z-index: 0;}
 
 /* Research */
 
@@ -518,7 +508,7 @@ h2 {margin-bottom: 2.5rem; font-size: 2.4rem;}
 .tri-column .content-area-right {padding-left: 0;}
 .tri-column .content-area-left {padding-right: 0;}
 .tri-column .content-area-center {padding: 0;}
-.header {height: auto; border-top: 1px solid #6a5638;}
+.header {height: auto;}
 .header-content {padding: 2.5rem;}
 .slider-overlay-content {bottom: 0;}
 .slider-container {min-height: 250px;}
