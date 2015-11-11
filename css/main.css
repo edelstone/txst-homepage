@@ -357,7 +357,7 @@ input {-webkit-appearance: none !important;}
 /* Primary Footer */
 
 .footer {width: 100%;}
-.primary-footer {width: 100%; background: #6a5638; color: #FFFFFF; padding: 2rem 0 4rem 0; font-size: 1.3rem; line-height: 2.2rem;}
+.primary-footer {width: 100%; background: #6a5638; color: #FFFFFF; padding: 2rem 0 6rem 0; font-size: 1.3rem; line-height: 2.2rem;}
 .primary-footer a {color: #FFFFFF; text-decoration: none; padding: 5px; margin: -5px;}
 .primary-footer a:hover {background: #501214; text-decoration: none;}
 .footer-btt {text-align: center; margin-top: -0.5rem;}
@@ -376,6 +376,7 @@ input {-webkit-appearance: none !important;}
 .footer-logo a:hover {background: transparent !important;}
 .u-social {font-size: 2.4rem;}
 .u-social a {margin: -2px -6px -2px -6px; padding: 2px 6px 2px 6px; margin-right: 0.5rem; border-radius: 5px;}
+.fa-snapchat {font-size: 2rem;}
 
 /* Legal Footer */
 
@@ -471,6 +472,7 @@ figcaption {padding: 1.8rem;}
 .tweet {font-size: 2.2rem;}
 .pres-bio {line-height: 2.4rem;}
 .pres-updates-content {padding: .5rem .5rem .5rem 2rem; min-height: 0;}
+.u-social a {margin-right: 0;}
 .scroll-to-fixed-fixed .drop-menu {top: 5.2rem;}
 .scroll-to-fixed-fixed .scroll-logo {visibility: hidden; opacity: 0;}
 .scroll-logo-2 {display: block; transition: visibility 0s, opacity 0.2s linear; visibility: hidden; opacity: 0; max-width: 3rem; position: absolute; top: 1rem; left: 2rem;}
@@ -574,8 +576,6 @@ h2 {margin-bottom: 2.5rem; font-size: 2.4rem;}
 .legal-links p:after {content: " - "; color: #bbbbbb;}
 .legal-3 p:last-child:after {content: none;}
 .member-statement {margin: 4rem auto 1rem auto;}
-margin-right: 0rem;
-    top: 4.6rem;
 }
 
 @media (max-width: 35.5em) {
