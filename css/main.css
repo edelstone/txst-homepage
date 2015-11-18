@@ -202,9 +202,10 @@ input {-webkit-appearance: none !important;}
 .messaging:hover {background: #622a2b;}
 .messaging-2 {background: #6a5638;}
 .messaging-2:hover {background: #79674c;}
-/*.messaging:active {border-bottom: none;} */
 .play-overlay {-webkit-border-radius: 50%; -moz-border-radius: 50%; -ms-border-radius: 50%; -o-border-radius: 50%; border-radius: 8rem; background: #501214; position: absolute; width: 6.5rem; height: 6.5rem; margin-top: -7.5rem; cursor: pointer;}
 .play-overlay:hover {-webkit-transform: scale(1.15); -moz-transform: scale(1.15); -ms-transform: scale(1.15); -o-transform: scale(1.15); transform: scale(1.15); background: #622a2b;}
+.play-overlay-2 {background: #6a5638;}
+.play-overlay-2:hover {background: #79674c;}
 .play-overlay:active {background: #501214;}
 .play-overlay:after {left: 0; right: 0; margin: 0 auto; position: absolute; border: solid transparent; border-left-color: #fff; border-width: 1rem 0 1rem 1.6rem; content: ""; height: 0; width: 0; position: absolute; top: 50%; margin-top: -1rem; left: .4rem;}
 .slider-overlay-right a {margin: 0; padding: 0; color: #ffffff; font-size: 1.8rem; background: rgba(0,0,0,0.6); padding: 1rem 1.4rem; margin-left: 0.3rem; display: inline-block;}
