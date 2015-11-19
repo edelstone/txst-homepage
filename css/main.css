@@ -519,7 +519,7 @@ h2 {margin-bottom: 2.5rem; font-size: 2.4rem;}
 .header-content {padding: 2.5rem;}
 .slider-overlay-content {bottom: 0;}
 .slider-container {min-height: 250px;}
-.messaging {padding-bottom: 1.8rem !important; border-bottom: 0px solid #400e10; margin: 0; display: block;}
+.messaging {margin: 0; display: block; line-height: 3.2rem; font-size: 2.4rem;}
 .slider-overlay-mobile, .slider-mobile {display: block; margin-left: 0;}
 .slider .play-overlay {margin-top: -7rem; left: 2rem;}
 .slider-image {opacity: 1;}
