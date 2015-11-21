@@ -495,7 +495,7 @@ a:hover, .primary-footer a:hover {background: transparent !important;}
 .social-area-icon a:hover {color: #6a5638 !important;}
 .legal-footer a:hover {text-decoration: none !important;}
 .hover-fx-2:hover i {animation: none !important;} */
-.hide-on-mobile, .super-user-menu, super-list, .txst-search, .main-nav, .hidden-caption, .slider-overlay-left {display: none;}
+.hide-on-mobile, .super-user-menu, super-list, .txst-search, .main-nav, .slider .slider-overlay-right, .hidden-caption, .slider-overlay-left {display: none;}
 .hover-fx-6 {-webkit-transition: all 0.2s cubic-bezier(0, 0.5, 0.25, 1); -moz-transition: all 0.2s cubic-bezier(0, 0.5, 0.25, 1); -o-transition: all 0.2s cubic-bezier(0, 0.5, 0.25, 1); transition: all 0.2s cubic-bezier(0, 0.5, 0.25, 1);}
 #mobile-menu {opacity: 1; visibility: visible;}
 .mobile-menu {display: inline-block; text-align: right; position: relative; top: 3.8rem;}
