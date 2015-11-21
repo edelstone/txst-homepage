@@ -495,7 +495,7 @@ a:hover, .primary-footer a:hover {background: transparent !important;}
 .social-area-icon a:hover {color: #6a5638 !important;}
 .legal-footer a:hover {text-decoration: none !important;}
 .hover-fx-2:hover i {animation: none !important;} */
-.hide-on-mobile, .super-user-menu, super-list, .txst-search, .main-nav, .slider-overlay-right, .hidden-caption, .slider-overlay-left {display: none;}
+.hide-on-mobile, .super-user-menu, super-list, .txst-search, .main-nav, .hidden-caption, .slider-overlay-left {display: none;}
 .hover-fx-6 {-webkit-transition: all 0.2s cubic-bezier(0, 0.5, 0.25, 1); -moz-transition: all 0.2s cubic-bezier(0, 0.5, 0.25, 1); -o-transition: all 0.2s cubic-bezier(0, 0.5, 0.25, 1); transition: all 0.2s cubic-bezier(0, 0.5, 0.25, 1);}
 #mobile-menu {opacity: 1; visibility: visible;}
 .mobile-menu {display: inline-block; text-align: right; position: relative; top: 3.8rem;}
@@ -546,6 +546,7 @@ h2 {margin-bottom: 2.5rem; font-size: 2.4rem;}
 .events-container {padding: 2rem;}
 .events-tab {margin-right: 3rem; margin-left: 2rem;}
 .research-play {left: calc(50% - 3.25rem);}
+.research .slider-overlay-right {margin-right: 0; top: 4.6rem;}
 .pride {margin-top: -6rem;}
 .solo-title {margin-top: 4rem; margin-bottom: -1rem;}
 .solo-bailout {top: 0; text-align: center; margin-bottom: 4rem;}
