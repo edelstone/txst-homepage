@@ -531,6 +531,7 @@ h2 {margin-bottom: 2.5rem; font-size: 2.4rem;}
 .top-links {text-align: left;}
 .top-links-content {padding: 0;}
 .top-links a {font-weight: 400; padding: 1.2rem 2rem; border-top: 1px solid #4a4948; border-bottom: 2px solid #262524; font-size: 1.8rem;}
+.first-top-link {border-top: 1px solid #262524 !important;}
 .top-links i {display: inline; float: right; position: relative; top: .2rem;}
 .news-jump {padding: 0; margin-top: -1.5rem;}
 .news {margin-bottom: 1.8rem;}
@@ -546,7 +547,6 @@ h2 {margin-bottom: 2.5rem; font-size: 2.4rem;}
 .events-tab {margin-right: 3rem; margin-left: 2rem;}
 .research-play {left: calc(50% - 3.25rem);}
 .pride {margin-top: -6rem;}
-.pride-overlay p {font-size: 3.6rem;}
 .solo-title {margin-top: 4rem; margin-bottom: -1rem;}
 .solo-bailout {top: 0; text-align: center; margin-bottom: 4rem;}
 .social-lower {border-bottom: none;}
@@ -584,4 +584,5 @@ h2 {margin-bottom: 2.5rem; font-size: 2.4rem;}
 @media (max-width: 35.5em) {
 .slider-container {min-height: 185px;}
 .research-play {bottom: calc(50% - 3.25rem + 6rem);}
+.pride-overlay p {font-size: 3.6rem;}
 }
