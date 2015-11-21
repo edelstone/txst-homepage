@@ -531,7 +531,7 @@ h2 {margin-bottom: 2.5rem; font-size: 2.4rem;}
 .top-links {text-align: left;}
 .top-links-content {padding: 0;}
 .top-links a {font-weight: 400; padding: 1.2rem 2rem; border-top: 1px solid #4a4948; border-bottom: 2px solid #262524; font-size: 1.8rem;}
-.first-top-link {border-top: 1px solid #262524 !important;}
+.first-top-link {border-top: 0px solid #262524 !important;}
 .top-links i {display: inline; float: right; position: relative; top: .2rem;}
 .news-jump {padding: 0; margin-top: -1.5rem;}
 .news {margin-bottom: 1.8rem;}
