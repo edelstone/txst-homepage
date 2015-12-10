@@ -192,7 +192,7 @@ input {-webkit-appearance: none !important;}
 /* Slider */
 
 .slider-container {min-height: 600px; position: relative; background: #501214;}
-.slider-image {opacity: 0; background: #501214 url("../images/picture-yourself-4.jpg") no-repeat 50% 85%; background-size: cover; position: absolute; height: 100%; width: 100%;}
+.slider-image {opacity: 0; background: #501214 url("../images/picture-yourself-5.jpg") no-repeat 50% 85%; background-size: cover; position: absolute; height: 100%; width: 100%;}
 .slider-overlay {position: relative; height: 100%; width: 100%;}
 .slider-overlay-left {width: 50%; float: left; position: relative; left: -3rem; opacity: 0;}
 .slider-overlay-right {width: 50%; text-align: right; position: absolute; opacity: 0; bottom: 0; right: 0;}
