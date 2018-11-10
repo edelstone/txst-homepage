@@ -4,9 +4,9 @@ This is the source code for the 2016 update to the front end of the Texas State 
 **Major improvements include:**
 - Responsive design
 - AAA accessible color contrast and keyboard navigation
-- Brand and [style guide](http://www.styleguide.txstate.edu/) adherence
+- Brand and [style guide](https://www.styleguide.txstate.edu/) adherence
 - Modern, scrollable interface
 - Graphical news, research, and social media features
 - Full-screen video modal
 
-**Live site:** [txstate.edu](http://txstate.edu)
+**Live site:** [txstate.edu](https://txstate.edu)
